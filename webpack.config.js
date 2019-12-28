@@ -18,7 +18,6 @@ module.exports = {
       test: /\.js$/,
       use: { loader: "babel-loader" },
       exclude: /node_modules/,
-
     },
     {
       test: /\.(woff|woff2|ttf|otf)$/i,
@@ -69,16 +68,6 @@ module.exports = {
       inject: false,
       template: './src/index.html',
       filename: 'index.html'
-    }),
-    new HtmlWebpackPlugin({
-      inject: false,
-      template: './src/saved/index.html',
-      filename: 'saved.html'
-    }),
-    new HtmlWebpackPlugin({
-      inject: false,
-      template: './src/about/index.html',
-      filename: 'about.html'
     }),
     new OptimizeCssAssetsPlugin({
       assetNameRegExp: /\.css$/g,

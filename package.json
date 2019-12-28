@@ -1,23 +1,23 @@
 {
-  "name": "news-explorer",
-  "version": "1.0.0",
+  "name": "bestbuddies",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "cross-env NODE_ENV=production rimraf dist && webpack --mode production",
+    "build": "cross-env NODE_ENV=production rimraf dist && webpack --mode production",
     "dev": "cross-env NODE_ENV=development webpack-dev-server --mode development --open --watch",
     "deploy": "cross-env NODE_ENV=production gh-pages -d dist"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zuhijan/news-explorer.git"
+    "url": "git+https://github.com/zuhijan/bestbuddies.git"
   },
-  "author": "Egor Shkirya",
+  "author": "Vanda Ponikarova, Roman Kolpachev, Egor Shkirya",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/zuhijan/news-explorer/issues"
+    "url": "https://github.com/zuhijan/bestbuddies/issues"
   },
-  "homepage": "https://github.com/zuhijan/news-explorer#readme",
+  "homepage": "https://github.com/zuhijan/bestbuddies#readme",
   "devDependencies": {
     "@babel/cli": "~7.6.0",
     "@babel/core": "~7.6.0",
@@ -35,13 +35,13 @@
     "optimize-css-assets-webpack-plugin": "~5.0.3",
     "postcss-loader": "~3.0.0",
     "style-loader": "~1.0.0",
-    "webpack": "^4.40.3",
+    "webpack": "~4.40.3",
     "webpack-cli": "~3.3.9",
-    "webpack-dev-server": "^3.8.2",
+    "webpack-dev-server": "~3.8.2",
     "webpack-md5-hash": "0.0.6"
   },
   "dependencies": {
-    "@glidejs/glide": "^3.4.1",
+    "@glidejs/glide": "~3.4.1",
     "babel-polyfill": "~6.26.0",
     "core-js": "~3.1.4"
   }
