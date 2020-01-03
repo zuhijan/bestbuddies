@@ -1,6 +1,6 @@
-@import url('./__text-container/achievements__text-container.css');
-@import url('./__text/achievements__text.css');
-@import url('./__image/achievements__image.css');
+@import './__text-container/achievements__text-container.scss';
+@import './__text/achievements__text.scss';
+@import './__image/achievements__image.scss';
 
 .achievements {
     width: 100%;

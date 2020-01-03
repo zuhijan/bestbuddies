@@ -1,0 +1,10 @@
+@import './__info/donations__info.css';
+@import './__help-icons/donations__help-icons.css';
+@import './__share-icons/donations__share-icons.css';
+
+.donations {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
