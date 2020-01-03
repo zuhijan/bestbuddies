@@ -1,17 +1,19 @@
-@import url("../vendor/normalize.css");
+@import '../vendor/normalize.css';
+@import '../variables/variables.scss';
+
 
 @font-face {
   src: url("../vendor/fonts/HelveticaNeueCyr-Bold.woff");
-  font-family: "Helvetica Neue Cyr";
+  font-family: "Helvetica Neue Cyr Bold";
   font-weight: bold;
 }
 @font-face {
   src: url("../vendor/fonts/HelveticaNeueCyr-Light.woff");
-  font-family: "Helvetica Neue Cyr";
+  font-family: "Helvetica Neue Cyr Light";
   font-weight: 300;
 }
 @font-face {
   src: url("../vendor/fonts/HelveticaNeueCyr-Roman.woff");
-  font-family: "Helvetica Neue Cyr";
+  font-family: "Helvetica Neue Cyr Normal";
   font-weight: normal;
 }

@@ -1,2 +1,2 @@
-import "./blocks/index.css";
-import "./js/scripts.js";
+import './blocks/index.scss';
+import './js/scripts.js';
