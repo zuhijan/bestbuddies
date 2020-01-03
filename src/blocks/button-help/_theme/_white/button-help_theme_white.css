@@ -1,0 +1,12 @@
+.button-help_theme_white {
+    color: #FC691B;
+}
+
+.button-help_theme_white:hover {
+    background-color: #FC691B;
+    color: #FFFFFF;
+}
+
+.button-help_theme_white:active {
+    color: #5A3F98;
+}

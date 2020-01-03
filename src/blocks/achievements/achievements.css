@@ -1,0 +1,27 @@
+@import url('./__text-container/achievements__text-container.css');
+@import url('./__text/achievements__text.css');
+@import url('./__image/achievements__image.css');
+
+.achievements {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, auto));
+    column-gap: calc((100vw - 1244px)/(1440 - 1244) * (136 - 44) + 44px);
+    row-gap: 32px;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 560px) and (max-width: 1243px) {
+    .achievements {
+        grid-template-columns: 500px;
+    }
+}
+
+@media (max-width: 559px) {
+    .achievements {
+        box-sizing: border-box;
+        grid-template-columns: calc(100% - 16px);
+    }
+}

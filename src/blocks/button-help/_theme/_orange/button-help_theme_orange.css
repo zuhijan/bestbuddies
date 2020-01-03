@@ -1,0 +1,14 @@
+.button-help_theme_orange {
+    background-color: #FC691B;
+    color: #FFFFFF;
+}
+
+.button-help_theme_orange:hover {
+    border: 2px solid #5A3F98;
+    background-color: #5A3F98;
+}
+
+.button-help_theme_orange:active {
+    border: 2px solid #FC691B;
+    background-color: #FC691B;
+}

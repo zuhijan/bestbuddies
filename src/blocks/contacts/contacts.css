@@ -1,0 +1,13 @@
+@import url('./__adress/contacts__adress.css');
+
+.contacts {
+    max-width: 264px;
+    display: flex;
+    flex-direction: column;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    color: #333235;
+}

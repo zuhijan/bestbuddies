@@ -1,0 +1,16 @@
+@import url('./__item/social-icons__item.css');
+@import url('./__svg/social-icons__svg.css');
+
+.social-icons {
+    width: 168px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding-left: 0;
+}
+
+@media (max-width: 700px) {
+    .social-icons {
+        width: 216px;
+    }
+}

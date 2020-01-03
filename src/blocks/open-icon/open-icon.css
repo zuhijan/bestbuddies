@@ -1,0 +1,15 @@
+@import url('./_inactive/open-icon_inactive.css');
+@import url('./__svg/open-icon__svg.css');
+
+.open-icon {
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    background-color: unset;
+}
+
+@media (max-width: 700px) {
+    .open-icon {
+        display: none;
+    }
+}

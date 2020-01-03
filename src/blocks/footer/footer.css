@@ -1,0 +1,6 @@
+@import url('./__container/footer__container.css');
+
+.footer {
+    width: 100%;
+    background-color: #D2D4EB;
+}

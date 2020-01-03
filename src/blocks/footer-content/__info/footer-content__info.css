@@ -1,0 +1,28 @@
+.footer-content__info {
+    width: 60%;
+    display: grid;
+    grid-template-areas:    "contacts company"
+                            ". icons";
+    column-gap: calc(100% - (264px * 2));  
+    row-gap: 25px; 
+}
+
+@media (max-width: 1070px) {
+    .footer-content__info {
+        grid-template-areas:    "company"
+                                "contacts"
+                                "icons";
+        justify-content: center;
+    }
+}
+
+@media (max-width: 700px) {
+    .footer-content__info {
+        grid-template-areas:    "company"
+                                "contacts"
+                                "icons";
+        justify-content: center;
+        justify-items: center;
+       
+    }
+}

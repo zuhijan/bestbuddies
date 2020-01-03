@@ -1,0 +1,9 @@
+.header-content__button-help {
+    margin-left: 52px;
+}
+
+@media (max-width: 700px) {
+    .header-content__button-help {
+        margin-left: 0;
+    }
+}

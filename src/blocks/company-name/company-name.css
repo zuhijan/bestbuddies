@@ -1,0 +1,6 @@
+@import url('./__title/company-name__title.css');
+
+.company-name {
+    display: flex;
+    flex-direction: column;
+}

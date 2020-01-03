@@ -1,0 +1,11 @@
+.company-name__title {
+    margin: 0;
+    padding-bottom: 4px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    color: #333235;
+}

@@ -1,0 +1,8 @@
+.share-icons__item {
+    list-style-type: none;
+    margin-right: 32px;
+}
+
+.share-icons__item:last-child {
+    margin-right: 0;
+}

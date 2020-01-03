@@ -1,0 +1,8 @@
+@import url('./__item/share-icons__item.css');
+
+.share-icons {
+    width: 224px;
+    display: flex;
+    margin: 0;
+    padding-left: 0;
+}

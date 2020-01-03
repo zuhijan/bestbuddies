@@ -1,0 +1,31 @@
+@import url('./__text-container/team__text-container.css');
+@import url('./__text/team__text.css');
+
+.team {
+    width: 100%;
+    padding-bottom: 60px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, auto));
+    column-gap: calc((100vw - 1244px)/(1440 - 1244) * (136 - 44) + 44px);
+    row-gap: 32px;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.team:last-child {
+    padding-bottom: 0;
+}
+
+@media (min-width: 560px) and (max-width: 1243px) {
+    .team {
+        grid-template-columns: 500px;
+    }
+}
+
+@media (max-width: 559px) {
+    .team {
+        box-sizing: border-box;
+        grid-template-columns: calc(100% - 16px);
+    }
+}

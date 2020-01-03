@@ -1,0 +1,14 @@
+@import url('./__svg/arrow-up__svg.css');
+
+.arrow-up {
+    position: absolute;
+    right: 0;
+    bottom: 20px;
+}
+
+@media (max-width: 700px) {
+    .arrow-up {
+        position: static;
+        margin-top: 48px;
+    }
+}

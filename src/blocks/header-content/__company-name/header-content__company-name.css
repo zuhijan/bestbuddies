@@ -1,0 +1,21 @@
+.header-content__company-name {
+    max-width: 424px;
+    margin-left: 54px;
+    margin-right: auto;
+    padding-bottom: 8px;
+}
+
+@media (max-width: 1070px) {
+    .header-content__company-name .text_type_note {
+        display: none;
+    }
+    .header-content__company-name {
+        padding-bottom: 12px;
+    }
+}
+
+@media (max-width: 700px) {
+    .header-content__company-name {
+        display: none;
+    }
+}

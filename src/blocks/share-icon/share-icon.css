@@ -1,0 +1,8 @@
+@import url('./__svg/share-icon__svg.css');
+
+.share-icon {
+    padding: 0;
+    border: none;
+    background-color: unset;
+    cursor: pointer;
+}

@@ -1,0 +1,24 @@
+@import url('./__info/footer-content__info.css');
+@import url('./__company-name/footer-content__company-name.css');
+@import url('./__button-help/footer-content__button-help.css');
+@import url('./__contacts/footer-content__contacts.css');
+@import url('./__logo-link/footer-content__logo-link.css');
+
+.footer-content {
+    position: relative;
+    width: 100%;
+    padding-top: 48px;
+    padding-bottom: 52px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+
+@media (max-width: 700px) {
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+}
