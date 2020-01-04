@@ -1,6 +1,6 @@
-@import './__company-name/header-content__company-name.css';
-@import './__social/header-content__social.css';
-@import './__button-help/header-content__button-help.css';
+@import './__company-name/header-content__company-name.scss';
+@import './__social/header-content__social.scss';
+@import './__button-help/header-content__button-help.scss';
 
 .header-content {
     width: 100%;
@@ -10,7 +10,7 @@
     align-items: flex-end;
 }
 
-@media (max-width: 700px {
+@media (max-width: 700px) {
     .header-content {
         justify-content: space-between;
     }

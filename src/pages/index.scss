@@ -1,3 +1,23 @@
+@import '../vendor/normalize.scss';
+@import '../variables/variables.scss';
+
+
+@font-face {
+  src: "./vendor/fonts/HelveticaNeueCyr-Bold.woff";
+  font-family: "Helvetica Neue Cyr Bold";
+  font-weight: bold;
+}
+@font-face {
+  src: "../vendor/fonts/HelveticaNeueCyr-Light.woff";
+  font-family: "Helvetica Neue Cyr Light";
+  font-weight: 300;
+}
+@font-face {
+  src: "../vendor/fonts/HelveticaNeueCyr-Roman.woff";
+  font-family: "Helvetica Neue Cyr Normal";
+  font-weight: normal;
+}
+
 @import '../blocks/page/page.scss';
 
 @import '../blocks/text/text.scss';
