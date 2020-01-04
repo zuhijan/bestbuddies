@@ -18,7 +18,7 @@
     document.addEventListener('scroll', () => {
 
         let headerHeight = document.querySelector('.header').offsetHeight;
-        let teamHeight = document.querySelector('.team-content').offsetTop;
+        let teamHeight = document.querySelector('.team').offsetTop;
         let scrollHeight = window.pageYOffset;
     
         if (teamHeight > (scrollHeight)) {

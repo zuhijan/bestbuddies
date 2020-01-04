@@ -12,8 +12,6 @@
   <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css %>">
 </head>
 
-<!-- <img src="<%=require('./images/logo.svg')%>" alt="логотип Лучшие друзья" class="header__logo"> -->
-
 <body class="page">
 <!-- HEADER -->
     
@@ -23,7 +21,7 @@
 
         <div class="header-content">
 
-            <a class="logo-link" href="#"><img class="logo logo_theme_small" src="./images/logo.svg" alt="Bestbuddies Logo"></a>
+            <a class="logo-link" href="#"><img class="logo logo_theme_small" src="<%=require('./images/logo.svg')%>" alt="Bestbuddies Logo"></a>
 
             <div class="company-name header-content__company-name">
                 <h1 class="company-name__title">Лучшие <b>друзья</b>
@@ -90,11 +88,11 @@
 
               <div class="achievements">
                   <img class="achievements__image"
-                              srcset="./images/about-us_01-360w.jpg 360w,
-                                      ./images/about-us_01-500w.jpg 500w"
+                              srcset="<%=require('./images/about-us_01-360w.jpg')%> 360w,
+                                      <%=require('./images/about-us_01-500w.jpg')%> 500w"
                               sizes="(max-width: 500px) 360px,
                                       500px"
-                              src="./images/about-us_01-500w.jpg" alt="Волейбол">
+                              src="<%=require('./images/about-us_01-500w.jpg')%>" alt="Волейбол">
 
                   <div class="achievements__text-container">
                       <p class="text text_type_main-content">У Антона фенилкетонурия – редкое наследственное заболевание, из-за которого у молодого человека появилось нарушение развития. После окончания учебы единственным спортивным мероприятием для него стала зарядка по утрам.
@@ -121,11 +119,11 @@
                   </div>
 
                   <img class="achievements__image"
-                              srcset="./images/about-us_02-360w.jpg 360w,
-                                      ./images/about-us_02-500w.jpg 500w"
+                              srcset="<%=require('./images/about-us_02-360w.jpg')%> 360w,
+                                      <%=require('./images/about-us_02-500w.jpg')%> 500w"
                               sizes="(max-width: 500px) 360px,
                                       500px"
-                              src="./images/about-us_02-500w.jpg" alt="Команда">
+                              src="<%=require('./images/about-us_02-500w.jpg')%>" alt="Команда">
               </div>
           </div>
       </div>
@@ -135,11 +133,11 @@
 
               <div class="achievements">
                   <img class="achievements__image"
-                              srcset="./images/about-us_03-360w.jpg 360w,
-                                      ./images/about-us_03-500w.jpg 500w"
+                              srcset="<%=require('./images/about-us_03-360w.jpg')%> 360w,
+                                      <%=require('./images/about-us_03-500w.jpg')%> 500w"
                               sizes="(max-width: 500px) 360px,
                                       500px"
-                              src="./images/about-us_03-500w.jpg" alt="Игра">
+                              src="<%=require('./images/about-us_03-500w.jpg')%>" alt="Игра">
 
                   <div class="achievements__text-container">
                       <h2 class="achievements__text text text_type_phrase text_theme_violet">Вместе к спортивным успехам</h2>
@@ -164,11 +162,11 @@
                   </div>
 
                   <img class="achievements__image"
-                              srcset="./images/about-us_04-360w.jpg 360w,
-                                      ./images/about-us_04-500w.jpg 500w"
+                              srcset="<%=require('./images/about-us_04-360w.jpg')%> 360w,
+                                      <%=require('./images/about-us_04-500w.jpg')%> 500w"
                               sizes="(max-width: 500px) 360px,
                                       500px"
-                              src="./images/about-us_04-500w.jpg" alt="Команда">
+                              src="<%=require('./images/about-us_04-500w.jpg')%>" alt="Команда">
               </div>
 
           </div>
@@ -180,11 +178,11 @@
               <div class="team">
 
                   <img class="team__image"
-                              srcset="./images/Jaroslav-360w.jpg 360w,
-                                      ./images/Jaroslav-500w.jpg 500w"
+                              srcset="<%=require('./images/Jaroslav-360w.jpg')%> 360w,
+                                      <%=require('./images/Jaroslav-500w.jpg')%> 500w"
                               sizes="(max-width: 500px) 360px,
                                       500px"
-                              src="./images/Jaroslav-500w.jpg" alt="Тренер Ярослав">
+                              src="<%=require('./images/Jaroslav-500w.jpg')%>" alt="Тренер Ярослав">
 
                   <div class="team__text-container">
                       <h2 class="team__text text text_type_big text_theme_violet">Ярослав Беляков, тренер по волейболу:</h2>
@@ -197,11 +195,11 @@
               <div class="team">
                   
                   <img class="team__image"
-                              srcset="./images/Islam-360w.jpg 360w,
-                                      ./images/Islam-500w.jpg 500w"
+                              srcset="<%=require('./images/Islam-360w.jpg')%> 360w,
+                                      <%=require('./images/Islam-500w.jpg')%> 500w"
                               sizes="(max-width: 500px) 360px,
                                       500px"
-                  src="./images/Islam-500w.jpg" alt="Тренер Ислам">
+                  src="<%=require('./images/Islam-500w.jpg')%>" alt="Тренер Ислам">
                   
                   <div class="team__text-container">
                       <h2 class="team__text text text_type_big text_theme_violet">Ислам Юсупов, тренер по футболу:</h2>
@@ -214,11 +212,11 @@
               <div class="team">
 
                   <img class="team__image"
-                              srcset="./images/Diana-360w.jpg 360w,
-                                      ./images/Diana-500w.jpg 500w"
+                              srcset="<%=require('./images/Diana-360w.jpg')%> 360w,
+                                      <%=require('./images/Diana-500w.jpg')%> 500w"
                               sizes="(max-width: 500px) 360px,
                                       500px"
-                  src="./images/Diana-500w.jpg" alt="Тренер Диана">
+                  src="<%=require('./images/Diana-500w.jpg')%>" alt="Тренер Диана">
 
                   <div class="team__text-container">
                       <h2 class="team__text text text_type_big text_theme_violet">Диана Анищенко, тренер по волейболу:</h2>
@@ -244,22 +242,22 @@
                   <div class="donations__help-icons help-icons">
 
                       <div class="help-icons__item">
-                          <img class="help-icons__image" src="./images/rooms.svg" alt="Помещения для занятий">
+                          <img class="help-icons__image" src="<%=require('./images/rooms.svg')%>" alt="Помещения для занятий">
                           <p class="text text_type_main-content text_type_accent text_theme_orange">Помочь с помещением для занятий</p>
                       </div>
 
                       <div class="help-icons__item">
-                          <img class="help-icons__image" src="./images/different.svg" alt="Инвентарь">
+                          <img class="help-icons__image" src="<%=require('./images/different.svg')%>" alt="Инвентарь">
                           <p class="text text_type_main-content text_type_accent text_theme_orange">Подарить инвентарь</p>
                       </div>
 
                       <div class="help-icons__item">
-                          <img class="help-icons__image" src="./images/volunteers.svg" alt="Волонтерство">
+                          <img class="help-icons__image" src="<%=require('./images/volunteers.svg')%>" alt="Волонтерство">
                           <p class="text text_type_main-content text_type_accent text_theme_orange">Стать спортивным волонтёром</p>
                       </div>
 
                       <div class="help-icons__item">
-                          <img class="help-icons__image" src="./images/partnership.svg" alt="Партнерство">
+                          <img class="help-icons__image" src="<%=require('./images/partnership.svg')%>" alt="Партнерство">
                           <p class="text text_type_main-content text_type_accent text_theme_orange">Стать партнёром проекта</p>
                       </div>
 
@@ -328,7 +326,7 @@
     <div class="container footer__container">
         <div class="footer-content">
 
-            <a class="logo-link footer-content__logo-link" href="#"><img class="logo logo_theme_big" src="./images/logo.svg" alt="Bestbuddies Logo"></a>
+            <a class="logo-link footer-content__logo-link" href="#"><img class="logo logo_theme_big" src="<%=require('./images/logo.svg')%>" alt="Bestbuddies Logo"></a>
 
             <div class="footer-content__info">
 
