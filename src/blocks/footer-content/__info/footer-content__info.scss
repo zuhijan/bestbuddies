@@ -5,24 +5,19 @@
                             ". icons";
     column-gap: calc(100% - (264px * 2));  
     row-gap: 25px; 
-}
 
-@media (max-width: 1070px) {
-    .footer-content__info {
+    @media (max-width: 1070px) {
         grid-template-areas:    "company"
                                 "contacts"
                                 "icons";
         justify-content: center;
     }
-}
 
-@media (max-width: 700px) {
-    .footer-content__info {
+    @media (max-width: 700px) {
         grid-template-areas:    "company"
                                 "contacts"
                                 "icons";
         justify-content: center;
         justify-items: center;
-       
     }
 }

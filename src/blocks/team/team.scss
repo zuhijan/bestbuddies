@@ -1,9 +1,13 @@
 @import './__text-container/team__text-container.scss';
+@import './__title/team__title.scss';
 @import './__text/team__text.scss';
 
 .team {
     width: 100%;
     padding-bottom: 60px;
+    &:last-child {
+        padding-bottom: 0;
+    }
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(500px, auto));
     column-gap: calc((100vw - 1244px)/(1440 - 1244) * (136 - 44) + 44px);
@@ -11,20 +15,12 @@
     justify-items: center;
     justify-content: center;
     align-items: center;
-}
 
-.team:last-child {
-    padding-bottom: 0;
-}
-
-@media (min-width: 560px) and (max-width: 1243px) {
-    .team {
+    @media (min-width: 560px) and (max-width: 1243px) {
         grid-template-columns: 500px;
     }
-}
-
-@media (max-width: 559px) {
-    .team {
+    
+    @media (max-width: 559px) {
         box-sizing: border-box;
         grid-template-columns: calc(100% - 16px);
     }

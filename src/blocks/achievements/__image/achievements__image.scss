@@ -1,11 +1,9 @@
-@media (min-width: 560px) and (max-width: 1243px) {
-    .achievements__image {
+.achievements__image {
+    @media (min-width: 560px) and (max-width: 1243px) {
         order: 1;
     }
-}
-
-@media (max-width: 559px) {
-    .achievements__image {
+    
+    @media (max-width: 559px) {
         order: 1;
     }
 }

@@ -3,19 +3,12 @@
     margin-left: 54px;
     margin-right: auto;
     padding-bottom: 8px;
-}
 
-@media (max-width: 1070px) {
-    .header-content__company-name .text_type_note {
-        display: none;
-    }
-    .header-content__company-name {
+    @media (min-width: 701px) and (max-width: 1070px) {
         padding-bottom: 12px;
     }
-}
 
-@media (max-width: 700px) {
-    .header-content__company-name {
+    @media (max-width: 700px) {
         display: none;
     }
 }

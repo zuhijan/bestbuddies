@@ -1,14 +1,8 @@
-.header-content__company-name {
-    padding-bottom: 8px;
-}
-
 .footer-content__company-name {
     width: 264px;
     grid-area: company;
-}
 
-@media (max-width: 700px) {
-    .footer-content__company-name {
+    @media (max-width: 700px) {
         text-align: center;
     }
 }

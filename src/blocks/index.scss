@@ -1,4 +1,4 @@
-// @import '../vendor/normalize.scss';
+@import '../vendor/normalize.scss';
 @import '../variables/variables.scss';
 
 
@@ -20,10 +20,7 @@
 
 @import '../blocks/page/page.scss';
 
-@import '../blocks/text/text.scss';
-@import '../blocks/text/_theme/_violet/text_theme_violet.scss';
-@import '../blocks/text/_theme/_orange/text_theme_orange.scss';
-@import '../blocks/text/_theme/_white/text_theme_white.scss';
+@import '../blocks/text-accent/text-accent.scss';
 
 @import '../blocks/button-help/button-help.scss';
 @import '../blocks/button-help/_theme/_white/button-help_theme_white.scss';

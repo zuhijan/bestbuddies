@@ -1,3 +1,9 @@
 .team__text {
-    padding-bottom: 32px;
+    margin: 0;
+    @extend %text-desktop;
+    color: $color-text;
+
+    @media (max-width: 360px) {
+        font-size: 16px;
+    }
 }

@@ -1,4 +1,5 @@
 @import './__text-container/achievements__text-container.scss';
+@import './__title/achievements__title.scss';
 @import './__text/achievements__text.scss';
 @import './__image/achievements__image.scss';
 
@@ -11,17 +12,14 @@
     justify-items: center;
     justify-content: center;
     align-items: center;
-}
 
-@media (min-width: 560px) and (max-width: 1243px) {
-    .achievements {
+    @media (min-width: 560px) and (max-width: 1243px) {
         grid-template-columns: 500px;
     }
-}
-
-@media (max-width: 559px) {
-    .achievements {
+    
+    @media (max-width: 559px) {
         box-sizing: border-box;
         grid-template-columns: calc(100% - 16px);
     }
 }
+

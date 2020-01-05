@@ -1,5 +1,5 @@
-@media (max-width: 700px) {
-    .footer-content__logo-link {
+.footer-content__logo-link {
+    @media (max-width: 700px) {
         margin-bottom: 32px;
     }
 }

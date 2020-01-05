@@ -1,7 +1,8 @@
-.arrow-up__svg:hover .arrow-up__path {
-    fill: #FC691B;
-}
-
-.arrow-up__svg:active .arrow-up__path {
-    fill: #5A3F98;
+.arrow-up__svg {
+    &:hover .arrow-up__path {
+        fill: $active;
+    }
+    &:active .arrow-up__path {
+        fill: $color-heading;
+    }
 }

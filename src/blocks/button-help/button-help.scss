@@ -1,13 +1,12 @@
 .button-help {
     width: 160px;
     height: 40px;
+    padding: 0;
     border: 2px solid #FC691B;
     border-radius: 4px;
     background-color: unset;
+    @extend %text-footer;
     text-align: center;
     font-weight: bold;
-    font-size: 14px;
-    line-height: 20px;
-    letter-spacing: 0.5px;
     text-transform: uppercase;
 }

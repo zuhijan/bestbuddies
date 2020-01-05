@@ -1,5 +1,5 @@
-@media (max-width: 700px) {
-    .footer-content__button-help {
+.footer-content__button-help {
+    @media (max-width: 700px) {
         margin: 48px auto;
     }
 }

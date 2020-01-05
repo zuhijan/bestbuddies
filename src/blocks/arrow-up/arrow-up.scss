@@ -4,11 +4,8 @@
     position: absolute;
     right: 0;
     bottom: 20px;
-}
 
-@media (max-width: 700px) {
-    .arrow-up {
+    @media (max-width: 700px) {
         position: static;
-        margin-top: 48px;
     }
 }
