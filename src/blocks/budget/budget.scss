@@ -1,0 +1,22 @@
+@import './__content-title/budget__content-title.scss';
+@import './__content-subtitle/budget__content-subtitle.scss';
+@import './__container/budget__container.scss';
+@import './__paragraph/budget__paragraph.scss';
+
+.budget {
+  font-family: $font-normal;
+  background-color: $background-color-budget;
+  min-height: 624px;
+
+  @media screen and (max-width: 1224px) {
+      min-height: 920px;
+  }
+
+  @media screen and (max-width: 700px) {
+      min-height: 920px;
+  }
+
+  @media screen and (max-width: 1224px) {
+      min-height: 932px;
+  }
+}

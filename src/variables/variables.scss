@@ -4,7 +4,7 @@ $font-normal: "Helvetica Neue Cyr Normal";
 $font-bold: "Helvetica Neue Cyr Bold";
 
 $background-color: #FFFFFF;
-$background-color-budget :#B0EDDB;
+$background-color-budget:#B0EDDB;
 $mistakes: #ED180B;
 $placeholder: #969696;
 $active: #FC691B;
@@ -68,10 +68,4 @@ $color-text: #333235;
   font-size: 14px;
   line-height: 20px;
   letter-spacing: 0.5px;
-}
-
-body {
-  color: $placeholder;
-  font-family: $font-normal;
-  @extend %text-footer;
 }
