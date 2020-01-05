@@ -4,11 +4,11 @@
     margin-right: auto;
     padding-bottom: 8px;
 
-    @media (min-width: 701px) and (max-width: 1070px) {
+    @media (min-width: 930px) and (max-width: 1070px) {
         padding-bottom: 12px;
     }
 
-    @media (max-width: 700px) {
+    @media (max-width: 929px) {
         display: none;
     }
 }

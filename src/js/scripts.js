@@ -7,6 +7,7 @@
         if (event.target.closest('.open-icon')) {
             document.querySelector('.open-icon').classList.add('open-icon_inactive');
             document.querySelector('.header-content__share-icons').classList.remove('share-icons_inactive');
+
         };
         if (!event.target.closest('.open-icon')) {
             document.querySelector('.open-icon').classList.remove('open-icon_inactive');
@@ -29,6 +30,10 @@
             document.querySelector('.header').style.position = 'static';
         };
     
+    });
+
+    document.querySelector('.arrow-up').addEventListener('click', () => {
+        scrollTo(0,0);
     });
 
 })();

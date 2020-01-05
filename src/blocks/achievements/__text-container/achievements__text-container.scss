@@ -1,13 +1,10 @@
 .achievements__text-container {
+    max-width: 604px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 
-    @media (min-width: 560px) and (max-width: 1243px) {
-        order: 2;
-    }
-    
-    @media (max-width: 559px) {
+    @media (max-width: 1250px) {
         order: 2;
     }
 }
