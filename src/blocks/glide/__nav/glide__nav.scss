@@ -1,7 +1,11 @@
 .glide__nav {
   position: absolute;
-  bottom: -24px;
+  bottom: -34px;
   right: 0;
   display: flex;
+  @media screen and (max-width: 1240px) {
+    position: relative;
+    align-self: center;
 
+  }
 }

@@ -4,6 +4,10 @@
   cursor: pointer;
   font-family: $font-bold;
   transition: all 200ms ease-in-out;
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+
 }
 
 .glide__arrow_left:hover {
