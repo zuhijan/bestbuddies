@@ -1,0 +1,13 @@
+.slider__content {
+  display: flex;
+  justify-content: space-between;
+
+  max-width: 1240px;
+  min-width: 320px;
+
+  margin: 0 auto;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}

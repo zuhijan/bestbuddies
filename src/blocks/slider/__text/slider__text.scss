@@ -1,0 +1,14 @@
+.slider__text {
+  max-width: 396px;
+  @extend %text-desktop;
+  color: $color-text;
+  &:first-of-type {
+    margin-bottom: 24px;
+    margin-top: 80px;
+  }
+  &:last-of-type {
+    @extend %text-big;
+    color: $active;
+    margin-top: 24px;
+  }
+}
