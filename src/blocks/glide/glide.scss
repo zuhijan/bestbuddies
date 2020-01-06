@@ -1,0 +1,12 @@
+// Required Core Stylesheet
+@import "node_modules/@glidejs/glide/src/assets/sass/glide.core";
+
+@import "__track/glide__track";
+@import "__bullet/glide__bullet";
+@import "__bullets/glide__bullets";
+@import "__nav/glide__nav";
+@import "__arrow/glide__arrow";
+
+.glide {
+  width: 712px;
+}

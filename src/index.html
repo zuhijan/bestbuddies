@@ -10,6 +10,7 @@
      и подружиться со сверстниками без инвалидности, найти работу и жить самостоятельно">
   <title>Лучшие друзья</title>
   <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css %>">
+
 </head>
 
 <body class="page">
@@ -151,31 +152,56 @@
     </section>
 
     <section class="budget">
+    </section>
 
-      <section class="slider">
-        <div class="slider__content">
-          <div class="slider__container-carusel">
-            <div class="slider__carusel">
-              <img src="<%=require('./images/slide-1.png')%>" alt="волейбол" class="slider__slide">
-              <!-- <img src="<%=require('./images/slide-2.png')%>" alt="обнимашки" class="slider__slide">
-          <img src="<%=require('./images/slide-3.png')%>" alt="обнимашки2" class="slider__slide">
-          <img src="<%=require('./images/slide-4.png')%>" alt="радость" class="slider__slide">
-          <img src="<%=require('./images/slide-5.png')%>" alt="смех" class="slider__slide"> -->
-            </div>
+    <section class="slider">
+      <div class="slider__content">
+        <div class="glide">
+          <div data-glide-el="track" class="glide__track">
+            <ul class="glide__slides">
+              <li class="glide__slide"> <img src="<%=require('./images/slide-1.png')%>" alt="волейбол"
+                  class="glide__img"> </li>
+              <li class="glide__slide"> <img src="<%=require('./images/slide-2.png')%>" alt="обнимашки"
+                  class="glide__img"> </li>
+              <li class="glide__slide"> <img src="<%=require('./images/slide-3.png')%>" alt="обнимашки2"
+                  class="glide__img"> </li>
+              <li class="glide__slide"> <img src="<%=require('./images/slide-4.png')%>" alt="радость"
+                  class="glide__img"> </li>
+              <li class="glide__slide"> <img src="<%=require('./images/slide-5.png')%>" alt="смех" class="glide__img">
+              </li>
+            </ul>
           </div>
-          <div class="slider__container-text">
-            <p class="slider__text">Ваша помощь — это возможность людям с ментальной инвалидностью стать чемпионами, не
-              так, как принято в обществе, а для самих себя, своих родных и друзей.</p>
-            <p class="slider__text">Ведь каждому, независимо от инвалидности, так важно найти дело, которое помогает
-              жить
-              и не чувствовать себя «чужим».</p>
-            <p class="slider__text">Давайте поможем ребятам
-              с нарушениями развития вместе!
-            </p>
+          <div class="glide__nav" data-glide-el="controls">
+            <button class="glide__arrow glide__arrow_left" data-glide-dir="<">
+              <svg class="glide__arrow-img" width="13" height="13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M13 5.69v1.62H3.273L7.73 11.77 6.58 12.92.16 6.5 6.58.08l1.151 1.151L3.273 5.69H13z"
+                  fill="#5A3F98" /></svg>
+            </button>
+            <div class="glide__bullets" data-glide-el="controls[nav]">
+              <button class="glide__bullet" data-glide-dir="=0"></button>
+              <button class="glide__bullet" data-glide-dir="=1"></button>
+              <button class="glide__bullet" data-glide-dir="=2"></button>
+              <button class="glide__bullet" data-glide-dir="=3"></button>
+              <button class="glide__bullet" data-glide-dir="=4"></button>
+            </div>
+            <button class="glide__arrow glide__arrow_right" data-glide-dir=">">
+              <svg class="glide__arrow-img" width="13" height="13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 5.69v1.62h9.727L5.27 11.77 6.42 12.92l6.42-6.42L6.42.08 5.269 1.231 9.727 5.69H0z"
+                  fill="#5A3F98" /></svg>
+            </button>
           </div>
         </div>
-      </section>
-
+        <div class="slider__container-text">
+          <p class="slider__text">Ваша помощь — это возможность людям с ментальной инвалидностью стать чемпионами, не
+            так, как принято в обществе, а для самих себя, своих родных и друзей.</p>
+          <p class="slider__text">Ведь каждому, независимо от инвалидности, так важно найти дело, которое помогает
+            жить
+            и не чувствовать себя «чужим».</p>
+          <p class="slider__text">Давайте поможем ребятам
+            с нарушениями развития вместе!
+          </p>
+        </div>
+      </div>
     </section>
 
     <section class="form">
