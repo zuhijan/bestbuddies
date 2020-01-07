@@ -1,5 +1,6 @@
 @import './_inactive/open-icon_inactive.scss';
 @import './__svg/open-icon__svg.scss';
+@import './__path/open-icon__path.scss';
 
 .open-icon {
     padding: 0;
@@ -7,7 +8,7 @@
     cursor: pointer;
     background-color: unset;
 
-    @media (max-width: 660px) {
+    @media (max-width: 720px) {
         display: none;
     }
 }

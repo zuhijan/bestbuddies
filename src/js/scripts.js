@@ -2,16 +2,18 @@
 
     document.addEventListener('click', function(event) {
 
-        event.preventDefault();
-
         if (event.target.closest('.open-icon')) {
             document.querySelector('.open-icon').classList.add('open-icon_inactive');
-            document.querySelector('.header-content__share-icons').classList.remove('share-icons_inactive');
+            document.querySelector('.header__share-icons').classList.remove('share-icons_inactive');
+            if (window.innerWidth <= 970) {
+                document.querySelector('.header__company-name').classList.add('company-name_close');
+            }
 
         };
         if (!event.target.closest('.open-icon')) {
             document.querySelector('.open-icon').classList.remove('open-icon_inactive');
-            document.querySelector('.header-content__share-icons').classList.add('share-icons_inactive');
+            document.querySelector('.header__share-icons').classList.add('share-icons_inactive');
+            document.querySelector('.header__company-name').classList.remove('company-name_close');
         };
 
     });
@@ -23,17 +25,12 @@
         let scrollHeight = window.pageYOffset;
     
         if (teamHeight > (scrollHeight)) {
-            document.querySelector('.header').style.position = 'fixed';
-            // document.querySelector('.main-content').style.paddingTop = `${headerHeight}px`;
+            document.querySelector('.header').style.position = 'sticky';
         };
         if (teamHeight <= (scrollHeight - headerHeight)) {
             document.querySelector('.header').style.position = 'static';
         };
     
-    });
-
-    document.querySelector('.arrow-up').addEventListener('click', () => {
-        scrollTo(0,0);
     });
 
     document.getElementsByClassName('copier').forEach( el => {

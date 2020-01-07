@@ -2,8 +2,16 @@
 
 .arrow-up {
     position: absolute;
-    right: 0;
+    right: 100px;
     bottom: 20px;
+
+    @media (min-width: 768px) and (max-width: 1239px) {
+        right: calc((100vw - 768px)/(1239 - 768) * (100 - 32) + 32px);
+    }
+
+    @media (min-width: 701px) and (max-width: 767px) {
+        right: calc((100vw - 701px)/(767 - 701) * (32 - 30) + 30px);
+    }
 
     @media (max-width: 700px) {
         position: static;

@@ -1,6 +1,11 @@
+@import './__block/header__block.scss';
+@import './__content/header__content.scss';
+@import './__social/header__social.scss';
+@import './__button-help/header__button-help.scss';
+
 .header {
     width: 100%;
-    position: fixed;
+    position: sticky;
     top: 0;
     background-color: rgba(255, 255, 255, 0.9);
 }

@@ -4,4 +4,8 @@
 .company-name {
     display: flex;
     flex-direction: column;
+
+    @media (max-width: 700px) {
+        align-items: center;
+    }
 }
