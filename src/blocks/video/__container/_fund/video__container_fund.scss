@@ -1,0 +1,14 @@
+.video__container.video__container_fund {
+    @media screen and (max-width: 1224px) {
+      background-color: $background-color-budget;
+   }
+
+   @media screen and (max-width: 1224px) {
+    margin-top: 40px;
+    max-width: 560px;
+ }
+
+  @media screen and (max-width: 704px) {
+    margin-top: 0;
+  }
+}

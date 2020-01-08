@@ -1,0 +1,24 @@
+@import './__player/video__player.scss';
+@import './__btn/video__btn.scss';
+@import './__container/video__container.scss';
+@import './__image/video__image.scss';
+@import './__paragraph/video__paragraph.scss';
+
+.video {
+    display: flex;
+    justify-content: space-between;
+    padding: 88px 100px;
+    overflow: hidden;
+    @media screen and (max-width: 1224px) {
+      flex-direction: column;
+    }
+
+    @media screen and (max-width: 768px) {
+       padding: 76px 100px;
+    }
+
+    @media screen and (max-width: 704px) {
+      padding: 76px 0;
+   }
+}
+

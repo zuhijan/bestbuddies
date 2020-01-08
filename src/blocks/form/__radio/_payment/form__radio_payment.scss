@@ -1,0 +1,14 @@
+.form__radio_payment {
+  display: inline-block;
+  margin-right: -4px;
+
+  & input[type=radio] {
+    display: none;
+  }
+
+  & input[type=radio]:checked + .form__label_payment {
+    color: $color-heading;
+    border-bottom: 8px solid $color-heading;
+    padding-bottom: 0;
+  }
+}
