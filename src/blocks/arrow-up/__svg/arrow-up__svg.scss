@@ -1,0 +1,8 @@
+.arrow-up__svg {
+    &:hover .arrow-up__path {
+        fill: $active;
+    }
+    &:active .arrow-up__path {
+        fill: $color-heading;
+    }
+}

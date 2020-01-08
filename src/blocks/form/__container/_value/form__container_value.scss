@@ -1,0 +1,6 @@
+.form__container_value {
+  display: flex;
+  @media screen and (max-width: 730px) {
+    flex-wrap: wrap;
+  }
+}

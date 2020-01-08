@@ -1,0 +1,11 @@
+@import './__subtitle/donations__subtitle.scss';
+@import './__email/donations__email.scss';
+@import './__text/donations__text.scss';
+@import './__help-icons/donations__help-icons.scss';
+
+.donations {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

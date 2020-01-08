@@ -1,0 +1,24 @@
+.footer__info {
+    width: 55%;
+    display: grid;
+    grid-template-areas:    "contacts company"
+                            ". icons";
+    column-gap: calc(100% - (264px * 2));  
+
+    @media (max-width: 1200px) {
+        grid-template-areas:    "company"
+                                "contacts"
+                                "icons";
+        justify-content: center;
+        row-gap: 20px;
+    }
+
+    @media (max-width: 700px) {
+        grid-template-areas:    "company"
+                                "contacts"
+                                "icons";
+        justify-content: center;
+        justify-items: center;
+        row-gap: 20px;
+    }
+}

@@ -4,7 +4,7 @@ $font-normal: "Helvetica Neue Cyr Normal";
 $font-bold: "Helvetica Neue Cyr Bold";
 
 $background-color: #FFFFFF;
-$background-color-budget :#B0EDDB;
+$background-color-budget:#B0EDDB;
 $mistakes: #ED180B;
 $placeholder: #969696;
 $active: #FC691B;
@@ -12,7 +12,6 @@ $color-heading: #5A3F98;
 $color-heading-light: #9397CB;
 $color-footer: #D2D4EB;
 $color-text: #333235;
-
 
 %phrase {
   font-weight: normal;
@@ -68,6 +67,13 @@ $color-text: #333235;
   font-size: 14px;
   line-height: 20px;
   letter-spacing: 0.5px;
+}
+%text-button {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.5;
+  text-transform: uppercase;
 }
 
 body {

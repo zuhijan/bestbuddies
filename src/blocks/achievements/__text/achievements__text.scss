@@ -1,0 +1,10 @@
+.achievements__text {
+    margin: 0;
+    padding-bottom: 25px;
+    @extend %text-desktop;
+    color: $color-text;
+    &:last-child {
+        padding-bottom: 0;
+    }
+}
+

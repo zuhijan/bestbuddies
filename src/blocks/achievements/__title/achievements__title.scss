@@ -1,0 +1,10 @@
+.achievements__title {
+    margin: 0;
+    padding-bottom: 44px;
+    @extend %phrase;
+    color: $color-heading;
+
+    @media (max-width: 768px){
+        padding-bottom: 24px;
+    }
+}

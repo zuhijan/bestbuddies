@@ -1,0 +1,21 @@
+.header__block {
+    box-sizing: border-box;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 16px 100px 0;
+
+    @media (min-width: 768px) and (max-width: 1239px) {
+        padding-left: calc((100vw - 768px)/(1239 - 768) * (100 - 32) + 32px);
+        padding-right: calc((100vw - 768px)/(1239 - 768) * (100 - 32) + 32px);  
+    }
+
+    @media (min-width: 360px) and (max-width: 767px) {
+        padding-left: calc((100vw - 360px)/(767 - 360) * (32 - 16) + 16px);
+        padding-right: calc((100vw - 360px)/(767 - 360) * (32 - 16) + 16px); 
+    }
+
+    @media (max-width: 359px) {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}
