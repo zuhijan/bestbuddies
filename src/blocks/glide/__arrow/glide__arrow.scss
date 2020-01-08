@@ -1,0 +1,18 @@
+.glide__arrow {
+  color: $color-heading;
+  background-color: transparent;
+  cursor: pointer;
+  font-family: $font-bold;
+  transition: all 200ms ease-in-out;
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+
+}
+
+.glide__arrow_left:hover {
+  transform: translateX(-1px);
+}
+.glide__arrow_right:hover {
+  transform: translateX(1px);
+}

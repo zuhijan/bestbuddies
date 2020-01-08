@@ -1,5 +1,9 @@
 @import '../vendor/normalize.scss';
 @import '../variables/variables.scss';
+
+@import './slider/slider.scss';
+@import './glide/glide.scss';
+
 @import '../blocks/budget/budget.scss';
 @import '../blocks/video/video.scss';
 @import '../blocks/form/form.scss';
@@ -54,6 +58,7 @@
 // /* Hover */
 // .form_radio_btn label:hover {
 // }
+
 
 @font-face {
   src: "../vendor/fonts/HelveticaNeueCyr-Bold.woff";
