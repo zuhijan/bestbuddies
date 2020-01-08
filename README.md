@@ -28,8 +28,10 @@ HTML, CSS, JS, Webpack, npm.
 Склонируйте гит-репозиторий
 > git clone <https://github.com/zuhijan/bestbuddies.git>
 
-Установите npm-зависимости
+Установите npm-зависимости:
+``` bash
 > npm install
+```
 
 Запустите сборку
 > npm run build (production)

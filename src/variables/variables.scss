@@ -68,11 +68,16 @@ $color-text: #333235;
   line-height: 20px;
   letter-spacing: 0.5px;
 }
-
 %text-button {
   font-weight: bold;
   font-size: 14px;
   line-height: 20px;
   letter-spacing: 0.5;
   text-transform: uppercase;
+}
+
+body {
+  color: $placeholder;
+  font-family: $font-normal;
+  @extend %text-footer;
 }

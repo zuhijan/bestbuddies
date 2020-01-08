@@ -1,4 +1,4 @@
-@import '../vendor/normalize.css';
+@import '../vendor/normalize.scss';
 @import '../variables/variables.scss';
 @import '../blocks/budget/budget.scss';
 @import '../blocks/video/video.scss';
@@ -56,17 +56,54 @@
 // }
 
 @font-face {
-  src: url("../vendor/fonts/HelveticaNeueCyr-Bold.woff");
+  src: "../vendor/fonts/HelveticaNeueCyr-Bold.woff";
   font-family: "Helvetica Neue Cyr Bold";
   font-weight: bold;
 }
 @font-face {
-  src: url("../vendor/fonts/HelveticaNeueCyr-Light.woff");
+  src: "../vendor/fonts/HelveticaNeueCyr-Light.woff";
   font-family: "Helvetica Neue Cyr Light";
   font-weight: 300;
 }
 @font-face {
-  src: url("../vendor/fonts/HelveticaNeueCyr-Roman.woff");
+  src: "../vendor/fonts/HelveticaNeueCyr-Roman.woff";
   font-family: "Helvetica Neue Cyr Normal";
   font-weight: normal;
 }
+
+@import '../blocks/html/html.scss';
+
+@import '../blocks/page/page.scss';
+
+@import '../blocks/text-accent/text-accent.scss';
+
+@import '../blocks/button-help/button-help.scss';
+@import '../blocks/button-help/_theme/_white/button-help_theme_white.scss';
+@import '../blocks/button-help/_theme/_orange/button-help_theme_orange.scss';
+
+@import '../blocks/header/header.scss';
+
+@import '../blocks/logo/logo.scss';
+
+@import '../blocks/company-name/company-name.scss';
+@import '../blocks/header/__company-name/header__company-name.scss';
+@import '../blocks/company-name/_close/company-name_close.scss';
+
+@import '../blocks/share-icons/share-icons.scss';
+@import '../blocks/share-icons/_inactive/share-icons_inactive.scss';
+@import '../blocks/share-icon/share-icon.scss';
+
+@import '../blocks/open-icon/open-icon.scss';
+
+@import '../blocks/main-content/main-content.scss';
+@import '../blocks/achievements/achievements.scss';
+@import '../blocks/team/team.scss';
+@import '../blocks/donations/donations.scss';
+@import '../blocks/help-icons/help-icons.scss';
+
+@import '../blocks/footer/footer.scss';
+
+@import '../blocks/contacts/contacts.scss';
+@import '../blocks/arrow-up/arrow-up.scss';
+@import '../blocks/social-icons/social-icons.scss';
+@import '../blocks/company-name/__social-icons/company-name__social-icons.scss';
