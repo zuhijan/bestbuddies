@@ -1,0 +1,6 @@
+@import './_place/_header/company-name__subtitle_place_header.scss';
+@import './_place/_footer/company-name__subtitle_place_footer.scss';
+
+.company-name__subtitle {
+    @extend %text-mini;
+}

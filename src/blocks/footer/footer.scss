@@ -1,0 +1,12 @@
+@import './__block/footer__block.scss';
+@import './__content/footer__content.scss';
+@import './__logo-link/footer__logo-link.scss';
+@import './__info/footer__info.scss';
+@import './__contacts/footer__contacts.scss';
+@import './__company-name/footer__company-name.scss';
+@import './__button-help/footer__button-help.scss';
+
+.footer {
+    width: 100%;
+    background-color: $color-footer;
+}

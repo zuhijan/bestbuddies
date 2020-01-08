@@ -1,0 +1,8 @@
+.footer__company-name {
+    width: 264px;
+    grid-area: company;
+
+    @media (max-width: 700px) {
+        text-align: center;
+    }
+}

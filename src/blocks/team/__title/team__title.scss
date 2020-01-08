@@ -1,0 +1,14 @@
+.team__title {
+    margin: 0;
+    padding-bottom: 32px;
+    @extend %text-big;
+    color: $color-heading;
+
+    @media (max-width: 768px) {
+        padding-bottom: 16px;
+    }
+
+    @media (max-width: 360px) {
+        padding-bottom: 12px;
+    }
+}

@@ -1,0 +1,14 @@
+.button-help {
+    width: 160px;
+    height: 40px;
+    padding: 0;
+    border: 2px solid #FC691B;
+    border-radius: 4px;
+    background-color: unset;
+    @extend %text-footer;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.4s ease, border 0.4s ease;
+}
