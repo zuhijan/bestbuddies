@@ -1,3 +1,7 @@
+
+import './modules/video';
+import './modules/form';
+
 (function () {
 
     document.addEventListener('click', function(event) {
@@ -45,8 +49,3 @@
     });
 
 })();
-
-
-
-
-

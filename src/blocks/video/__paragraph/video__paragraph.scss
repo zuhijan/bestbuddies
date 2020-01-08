@@ -1,0 +1,36 @@
+.video__paragraph {
+  max-width: 286px;
+  @extend %text-desktop;
+  letter-spacing: 1.1px;
+  padding-bottom: 23px;
+
+  @media screen and (max-width: 1224px) {
+    max-width: 446px;
+    padding: 48px 56px 0 56px;
+
+ }
+
+    @media screen and (max-width: 360px) {
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: 0.25px;
+      padding: 84px 24px 0 24px;
+
+    }
+}
+
+.video__paragraph:last-of-type {
+  padding-bottom: 2px;
+
+  @media screen and (max-width: 1224px) {
+    max-width: 446px;
+
+    padding: 22px 56px 50px 56px;
+ }
+ @media screen and (max-width: 360px) {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.25px;
+  padding: 24px 24px 33px 24px;
+}
+}

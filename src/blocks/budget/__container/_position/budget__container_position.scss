@@ -1,0 +1,32 @@
+.budget__container.budget__container_position {
+  background-color: $background-color;
+  flex-direction: column;
+  border-radius: 8px;
+  min-width: 548px;
+
+  @media screen and (max-width: 700px) {
+      min-width: 448px;
+  }
+
+  @media screen and (max-width: 550px) {
+      min-width: 328px;
+      max-width: 328px;
+  }
+}
+
+.budget__container.budget__container_position:first-of-type {
+  margin-right: 72px;
+  @media screen and (max-width: 1224px) {
+      margin-right: 0;
+  }
+}
+
+.budget__container.budget__container_position:last-of-type {
+  @media screen and (max-width: 1224px) {
+      margin-top: 24px;
+  }
+  @media screen and (max-width: 550px) {
+    margin-top: 32px;
+  }
+}
+

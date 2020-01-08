@@ -1,0 +1,12 @@
+@import './_value/form__container_value.scss';
+
+.form__container {
+  display: inline-block;
+  width: 49.4%;
+  @media screen and (max-width: 730px) {
+    width: 50%;
+  }
+  @media screen and (max-width: 433px) {
+    width: 80%;
+  }
+}

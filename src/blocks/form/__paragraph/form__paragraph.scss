@@ -1,0 +1,5 @@
+.form__paragraph {
+  color: $color-heading;
+  @extend %text-mini;
+  margin: 24px 0 60px 0;
+}

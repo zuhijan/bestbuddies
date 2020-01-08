@@ -1,0 +1,21 @@
+@import './_active/form__button_active.scss';
+
+.form__button {
+  width: 344px;
+  height: 48px;
+  cursor: pointer;
+
+  background: $background-color;
+  border: 2px solid $color-heading-light;
+  border-radius: 8px;
+  @extend %text-button;
+  color: $color-heading-light;
+
+  &:active {
+    color: red;
+  }
+}
+
+.form__button:first-of-type {
+  margin-right: 10px;
+}

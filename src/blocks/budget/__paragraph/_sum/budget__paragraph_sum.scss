@@ -1,0 +1,10 @@
+.budget__paragraph.budget__paragraph_sum {
+  text-align: center;
+  padding: 1px 0 35px 6px;
+  @extend %phrase;
+
+  @media screen and (max-width: 550px) {
+      padding: 1px 0 35px 16px;
+  }
+}
+

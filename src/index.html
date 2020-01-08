@@ -69,6 +69,140 @@
 
   </header>
 
+      <section class="video">
+        <div class="video__container video__container_fund">
+          <p class="video__paragraph">Фонд «Лучшие друзья» проводит регулярные занятия по&nbsp;футболу и волейболу для людей с нарушением развития и&nbsp;без. Постоянные занятия требуют регулярных расходов. <b>Поэтому нужна ваша помощь.</b></p>
+          <p class="video__paragraph">Чтобы у ребят была возможность тренироваться в&nbsp;течение года, <b>необходимо собрать 765 536 руб.</b></p>
+        </div>
+        <div class="video__container">
+          <video class="video__player" loop poster="<%=require('./images/video.jpg')%>" muted="muted">
+            <source src="http://www.w3schools.com/html/mov_bbb.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+            Тег video не поддерживается вашим браузером.
+           </video>
+           <svg class="video__image" width="15" height="18" viewBox="0 0 15 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M3.06 0.912504C1.7279 0.0799438 0 1.03763 0 2.6085V15.3915C0 16.9624 1.7279 17.9201 3.06 17.0875L13.2864 10.696C14.5397 9.91267 14.5397 8.08735 13.2864 7.30401L3.06 0.912504Z" fill="white"/>
+          </svg>
+           <button class="video__btn">Смотреть видео</button>
+        </div>
+      </section>
+
+      <section class="budget">
+          <h2 class="budget__content-title">Годовой бюджет на проведение регулярных тренировок по&nbsp;футболу и волейболу для ребят с нарушением развития</h2>
+          <p class="budget__paragraph budget__paragraph_sum">764 536 &#8381;</p>
+          <div class="budget__container">
+            <div class="budget__container budget__container_position">
+              <h3 class="budget__content-subtitle">Проведение занятий по футболу</h3>
+              <div class="budget__container budget__container_cost">
+                <p class="budget__paragraph">Аренда зала</p>
+                <p class="budget__paragraph">240 000 &#8381;</p>
+              </div>
+              <div class="budget__container budget__container_cost">
+                <p class="budget__paragraph">Инвентарь</p>
+                <p class="budget__paragraph">5 000 &#8381;</p>
+              </div>
+              <div class="budget__container budget__container_cost">
+                <p class="budget__paragraph">Зарплата тренеров</p>
+                <p class="budget__paragraph">108 000 &#8381;</p>
+              </div>
+              <div class="budget__container budget__container_cost">
+                <p class="budget__paragraph">Страховые взносы 27,1%</p>
+                <p class="budget__paragraph">29 268 &#8381;</p>
+              </div>
+              <p class="budget__paragraph budget__paragraph_training">382 258 &#8381;</p>
+            </div>
+            <div class="budget__container budget__container_position">
+              <h3 class="budget__content-subtitle">Проведение занятий по волейболу</h3>
+              <div class="budget__container budget__container_cost">
+                <p class="budget__paragraph">Аренда зала</p>
+                <p class="budget__paragraph">240 000 &#8381;</p>
+              </div>
+              <div class="budget__container budget__container_cost">
+                <p class="budget__paragraph">Инвентарь</p>
+                <p class="budget__paragraph">5 000 &#8381;</p>
+              </div>
+              <div class="budget__container budget__container_cost">
+                <p class="budget__paragraph">Зарплата тренеров</p>
+                <p class="budget__paragraph">108 000 &#8381;</p>
+              </div>
+              <div class="budget__container budget__container_cost">
+                <p class="budget__paragraph">Страховые взносы 27,1%</p>
+                <p class="budget__paragraph">29 268 &#8381;</p>
+              </div>
+              <p class="budget__paragraph budget__paragraph_training">382 258 &#8381;</p>
+            </div>
+          </div>
+      </section>
+
+      <section class="donation">
+        <form class="form" name="donation" novalidate>
+          <fieldset class="form__fieldset">
+            <div class="form__radio_payment">
+              <input id="radio-payment-1" type="radio" name="payment" value="1" checked>
+              <label class="form__label_payment" for="radio-payment-1">Банковская карта</label>
+            </div>
+
+            <div class="form__radio_payment">
+              <input id="radio-payment-2" type="radio" name="payment" value="2">
+              <label class="form__label_payment form__label_position" for="radio-payment-2">Яндекс деньги</label>
+            </div>
+          </fieldset>
+          <fieldset class="form__fieldset form__fieldset_value">
+            <div class="form__container_value">
+              <div class="form__radio_value">
+                <input class="form__radio" id="radio-1" type="radio" name="radio" value="100" checked>
+                <label class="form__label_value" for="radio-1">100 &#8381;</label>
+              </div>
+
+              <div class="form__radio_value">
+                <input class="form__radio" id="radio-2" type="radio" name="radio" value="300">
+                <label class="form__label_value" for="radio-2">300 &#8381;</label>
+              </div>
+
+              <div class="form__radio_value">
+                <input class="form__radio" id="radio-3" checked type="radio" name="radio" value="500">
+                <label class="form__label_value" for="radio-3">500 &#8381;</label class="form__label_value">
+              </div>
+
+              <div class="form__radio_value">
+                <input class="form__radio" id="radio-4" type="radio" name="radio" value="1000">
+                <label class="form__label_value" for="radio-4">1000 &#8381;</label class="form__label_value">
+              </div>
+              <div class="form__radio_value">
+                <input class="form__input form__input_value" type="number" name="sum" autocomplete="off" placeholder="Ваша сумма" required>
+                <img class="form__icon" src="<%=require('./images/ruble.png')%>" alt="">
+              </div>
+            </div>
+          </fieldset>
+
+          <fieldset class="form__fieldset form__fieldset_about">
+              <div class="form__container">
+                <label class="form__label_about" for="name">Ваше имя *</label class="form__label_about"> <br>
+                <input class="form__input form__input_name" id="name" type="text" name="link" autocomplete="off" placeholder="Иван Иванов" required>
+              </div>
+              <div class="form__container">
+                <label class="form__label_about" for="email">Ваш e-mail *</label> <br>
+                <input class="form__input form__input_email" id="email" type="email" name="link" autocomplete="off" placeholder="ivanivanov@gmail.com" required>
+              </div>
+              <p class="form__paragraph">Оба поля обязательны для заполнения. Эти данные нам нужны только для того, чтобы знать, кого благодарить и куда отправить уведомление о получении пожертвования</p>
+          </fieldset>
+
+          <fieldset class="form__fieldset">
+            <button name="submit" type="submit" class="form__button form__button_active">Хочу помогать ежемесячно</button>
+            <button name="submit" type="submit" class="form__button">Помочь один раз</button>
+          </fieldset>
+          <fieldset class="form__fieldset form__fieldset_policy">
+            <input id="checkbox-policy" type="checkbox" name="policy" checked value="1">
+            <label class="form__label_policy" for="checkbox-policy">Я принимаю правила, изложенные в <a class="form__link" href="#">Соглашении об использовании персональных данных</a></label>
+          </fieldset>
+        </form>
+        <div class="dotanion__collected">
+        </div>
+        <p class="dotanion__paragraph">
+          Собрали 3 374 из 764 536 рублей
+        </p>
+      </section>
+
+
   <!-- MAIN-CONTENT -->
   <main class="main-content">
 
@@ -139,6 +273,7 @@
                   src="<%=require('./images/about-us_04-500w.jpg')%>" alt="Команда">
     </div>
     <!-- ACHIEVEMENTS END -->
+
 
     <!-- TEAM START -->
     <div class="team main-content__block">
