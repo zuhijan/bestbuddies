@@ -3,6 +3,7 @@
 
 .budget__paragraph {
   @extend %text-desktop;
+  color: $color-text;
 
   @media screen and (max-width: 550px) {
     font-weight: bold;

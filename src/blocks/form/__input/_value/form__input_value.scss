@@ -1,3 +1,7 @@
-.form__input_value {
+.form__input.form__input_value {
+  width: 224px;
 
+  @media screen and (max-width: 520px) {
+    width: 206px;
+  }
 }

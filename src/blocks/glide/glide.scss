@@ -1,0 +1,32 @@
+// Required Core Stylesheet
+@import "node_modules/@glidejs/glide/src/assets/sass/glide.core";
+
+@import "__bullet/glide__bullet";
+@import "__bullets/glide__bullets";
+@import "__nav/glide__nav";
+@import "__arrow/glide__arrow";
+@import "__img/glide__img";
+
+.glide {
+  display: flex;
+  flex-direction: column;
+  width: 712px;
+  margin-right: 5px;
+  font-size: 0;
+  line-height: 0;
+
+  @media screen and (max-width: 1240px) {
+    width: 100%;
+    margin-right: 0;
+  }
+}
+// Встроенные модификаторы из пакета, тему я всю переписал.
+// Эти модификаторы не переделал под текущий стиль БЭМ, т.к. они создаются и убираются из пакетного JS.
+// В который я не стал лезть.
+.glide--swipeable {
+  cursor: grab;
+}
+
+.glide--dragging {
+  cursor: grabbing;
+}

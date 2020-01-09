@@ -19,21 +19,30 @@
 }
 
 .form__radio_value:last-of-type {
-  @media screen and (max-width: 670px) {
+  @media screen and (max-width: 750px) {
     margin-top: 20px;
     margin-left: 0;
-  }
-
-  @media screen and (max-width: 433px) {
-    margin-top: 20px;
-    margin-left: 16px;
   }
 }
 
 
 .form__radio_value:nth-child(4) {
-  @media screen and (max-width: 433px) {
-    margin-top: 20px;
+  @media screen and (max-width: 750px) {
+    margin-right: 40px;
+  }
+
+  @media screen and (max-width: 520px) {
     margin-left: 0;
+    margin-top: 20px;
+    margin-right: 16px;
+  }
+}
+
+.form__radio_value:nth-child(3) {
+  @media screen and (max-width: 520px) {
+    margin-right: 45px;
+  }
+  @media screen and (max-width: 420px) {
+    margin-right: 0;
   }
 }

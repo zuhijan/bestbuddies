@@ -7,18 +7,21 @@
 .video {
     display: flex;
     justify-content: space-between;
-    padding: 88px 100px;
+    padding: 71px 100px 40px 100px;
+    margin: 0 auto;
+    max-width: 1440px;
     overflow: hidden;
     @media screen and (max-width: 1224px) {
       flex-direction: column;
     }
 
     @media screen and (max-width: 768px) {
-       padding: 76px 100px;
+      padding: 59px 100px 36px 100px;
     }
 
     @media screen and (max-width: 704px) {
-      padding: 76px 0;
+      padding: 56px 0 0 0;
+      margin-bottom: -20px;
    }
 }
 

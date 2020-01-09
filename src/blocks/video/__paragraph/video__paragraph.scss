@@ -1,8 +1,8 @@
 .video__paragraph {
   max-width: 286px;
   @extend %text-desktop;
-  letter-spacing: 1.1px;
   padding-bottom: 23px;
+  color: $color-text;
 
   @media screen and (max-width: 1224px) {
     max-width: 446px;
