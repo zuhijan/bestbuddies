@@ -1,6 +1,10 @@
 
 import './modules/video';
 import './modules/form';
+<<<<<<< HEAD
+import './modules/validate';
+=======
+>>>>>>> 882a2d99a7943b80ddf0db996ff6e0c8d041e70f
 
 (function () {
 
@@ -27,20 +31,32 @@ import './modules/form';
         let headerHeight = document.querySelector('.header').offsetHeight;
         let teamHeight = document.querySelector('.budget').offsetTop;
         let scrollHeight = window.pageYOffset;
+<<<<<<< HEAD
+
+=======
     
+>>>>>>> 882a2d99a7943b80ddf0db996ff6e0c8d041e70f
         if (teamHeight > (scrollHeight)) {
             document.querySelector('.header').style.position = 'sticky';
         };
         if (teamHeight <= (scrollHeight - headerHeight)) {
             document.querySelector('.header').style.position = 'static';
         };
+<<<<<<< HEAD
+
+=======
     
+>>>>>>> 882a2d99a7943b80ddf0db996ff6e0c8d041e70f
     });
 
     document.getElementsByClassName('copier').forEach( el => {
         el.addEventListener('click', function() {
         let copytext = document.createElement('input');
+<<<<<<< HEAD
+        copytext.value = window.location.href;
+=======
         copytext.value = window.location.href; 
+>>>>>>> 882a2d99a7943b80ddf0db996ff6e0c8d041e70f
         document.body.appendChild(copytext);
         copytext.select();
         document.execCommand('copy');

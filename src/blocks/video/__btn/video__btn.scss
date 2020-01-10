@@ -11,6 +11,8 @@
   color: $background-color;
   cursor: pointer;
   transition: background-color 0.4s ease;
+  padding-left: 31px;
+
   &:hover {
     background-color: $active;
   }
