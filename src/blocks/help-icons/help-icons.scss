@@ -9,4 +9,8 @@
     column-gap: 44px;
     row-gap: 32px;
     justify-content: center;
+
+    @media (max-width: 768px) {
+        column-gap: 88px;
+    }
 }
