@@ -29,6 +29,8 @@
 
 @import '../blocks/page/page.scss';
 
+@import '../blocks/container/container.scss';
+
 @import '../blocks/text-accent/text-accent.scss';
 
 @import '../blocks/button-help/button-help.scss';
@@ -49,7 +51,7 @@
 
 @import '../blocks/open-icon/open-icon.scss';
 
-@import '../blocks/main-content/main-content.scss';
+@import '../blocks/main/main.scss';
 @import '../blocks/achievements/achievements.scss';
 @import '../blocks/team/team.scss';
 @import '../blocks/donations/donations.scss';

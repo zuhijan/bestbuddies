@@ -4,4 +4,10 @@
     @extend %text-desktop;
     color: $color-text;
     text-align: center;
+
+    @media (max-width: 360px) {
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.25px;
+    }
 }

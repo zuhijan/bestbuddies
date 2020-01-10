@@ -29,7 +29,7 @@ import './modules/validate';
     document.addEventListener('scroll', () => {
 
         let headerHeight = document.querySelector('.header').offsetHeight;
-        let teamHeight = document.querySelector('.team').offsetTop;
+        let teamHeight = document.querySelector('.budget').offsetTop;
         let scrollHeight = window.pageYOffset;
 <<<<<<< HEAD
 
