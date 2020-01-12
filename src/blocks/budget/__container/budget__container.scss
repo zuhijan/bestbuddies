@@ -1,9 +1,9 @@
-@import './_position/budget__container_position.scss';
-@import './_cost/budget__container_cost.scss';
-
 .budget__container {
   display: flex;
   justify-content: center;
+  justify-content: space-between;
+  max-width: 1168px;
+  margin: 0 auto;
 
   @media screen and (max-width: 1224px) {
     flex-direction: column;

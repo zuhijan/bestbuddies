@@ -1,17 +1,15 @@
 .budget__content-title {
     max-width: 550px;
-    margin: 0 auto;
-    padding: 60px 0 5px 0;
+    margin: 0 auto 5px auto;
     @extend %text-bold;
     color: $color-heading;
     letter-spacing: 0.6px;
     text-align: center;
+
     @media screen and (max-width: 1224px) {
-        padding: 47px 0 5px 0;
     }
 
     @media screen and (max-width: 550px) {
-        padding: 39px 0 13px 0;
         max-width: 313px;
     }
 }

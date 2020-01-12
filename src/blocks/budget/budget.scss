@@ -2,22 +2,28 @@
 @import './__content-subtitle/budget__content-subtitle.scss';
 @import './__container/budget__container.scss';
 @import './__paragraph/budget__paragraph.scss';
+@import './__line/budget__line.scss';
+@import './__position/budget__position.scss';
+@import './__list/budget__list.scss';
 
 .budget {
   font-family: $font-normal;
   background-color: $background-color-budget;
-  min-height: 624px;
+  min-height: 564px;
   margin-top: 56px;
+  padding-top: 60px;
 
   @media screen and (max-width: 1224px) {
-      min-height: 920px;
+    padding-top: 48px;
+    min-height: 872px;
   }
 
   @media screen and (max-width: 700px) {
-      min-height: 920px;
+    min-height: 894px;
   }
 
   @media screen and (max-width: 550px) {
-      min-height: 932px;
+      margin-top: 0;
+      padding-top: 38px;
   }
 }
