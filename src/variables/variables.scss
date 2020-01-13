@@ -1,7 +1,7 @@
 $body-color: red;
-$font-light: "Helvetica Neue Cyr Light";
-$font-normal: "Helvetica Neue Cyr Normal";
-$font-bold: "Helvetica Neue Cyr Bold";
+$font-light: "Helvetica Neue Cyr Light", Arial, sans-serif;
+$font-normal: "Helvetica Neue Cyr Normal", Arial, sans-serif;
+$font-bold: "Helvetica Neue Cyr Bold", Arial, sans-serif;
 
 $background-color: #FFFFFF;
 $background-color-budget:#B0EDDB;
@@ -76,8 +76,3 @@ $color-text: #333235;
   text-transform: uppercase;
 }
 
-body {
-  color: $placeholder;
-  font-family: $font-normal;
-  @extend %text-footer;
-}
