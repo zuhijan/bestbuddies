@@ -1,0 +1,15 @@
+.budget__list {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 45px 0 48px;
+  margin: 12px 0 0 0;
+
+  @media screen and (max-width: 1224px) {
+      flex-direction: row;
+  }
+
+  @media screen and (max-width: 550px) {
+      padding: 0 20px 0 20px;
+      margin: 16px 0 0 0;
+  }
+}
