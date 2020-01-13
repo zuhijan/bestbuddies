@@ -4,14 +4,13 @@
     outline: none;
     margin: 0;
     padding: 0;
-
     @media screen and (max-width: 1400px) {
       width: 704px;
       height: 396px;
   }
 
     @media screen and (max-width: 360px) {
-      width: 100%;
-      height: auto;
+      width: auto;
+      height: 280px;
   }
 }

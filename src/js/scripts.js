@@ -29,15 +29,12 @@ import './modules/validate';
         let teamHeight = document.querySelector('.budget').offsetTop;
         let scrollHeight = window.pageYOffset;
 
-    
         if (teamHeight > (scrollHeight)) {
             document.querySelector('.header').style.position = 'sticky';
         };
         if (teamHeight <= (scrollHeight - headerHeight)) {
             document.querySelector('.header').style.position = 'static';
         };
-
-    
     });
 
     document.getElementsByClassName('copier').forEach( el => {
