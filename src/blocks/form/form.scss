@@ -1,13 +1,16 @@
 @import './__fieldset/form__fieldset.scss';
 @import './__label/form__label.scss';
-@import './__radio/form__radio.scss';
 @import './__input/form__input.scss';
-@import './__container/form__container.scss';
 @import './__paragraph/form__paragraph.scss';
 @import './__button/form__button.scss';
 @import './__link/form__link.scss';
 @import './__icon/form__icon.scss';
 @import './__error/form__error.scss';
+@import './__container-about/form__container-about.scss';
+@import './__container-value/form__container-value.scss';
+@import './__container-radio/form__container-radio.scss';
+@import './__container-payment/form__container-payment.scss';
+
 
 .form {
     max-width: 706px;

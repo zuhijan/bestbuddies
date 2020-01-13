@@ -1,0 +1,7 @@
+.form__label_position-right {
+  padding-left: 20px;
+
+  @media screen and (max-width: 433px) {
+    padding-left: 10px;
+  }
+}

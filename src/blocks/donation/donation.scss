@@ -3,18 +3,20 @@
 @import './__image.scss/dotanion__image.scss';
 
 .donation {
+  max-width: 1440px;
   padding-top: 140px;
-  padding-right: 32px;
-  padding-left: 32px;
+  padding-right: 100px;
+  padding-left: 100px;
+  margin: 0 auto;
 
   @media screen and (max-width: 1240px) {
     padding-top: 128px;
-
+    padding-right: 32px;
+    padding-left: 32px;
   }
-  @media screen and (max-width: 360px) {
+  @media screen and (max-width: 385px) {
     padding-top: 60px;
     padding-right: 16px;
     padding-left: 16px;
-
   }
 }

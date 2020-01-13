@@ -2,6 +2,7 @@
 import './modules/video';
 import './modules/form';
 import './modules/validate';
+import './modules/widgetForm';
 
 (function () {
 
@@ -50,3 +51,5 @@ import './modules/validate';
     });
 
 })();
+
+
