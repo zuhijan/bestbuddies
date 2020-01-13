@@ -24,13 +24,31 @@ module.exports = {
       loader: 'file-loader?name=./vendor/[name].[ext]'
     },
     {
-      test: /\.(png|jpg|gif|ico|svg)$/,
+      test: /\.(png|jpe?g|gif|svg|ico)$/i,
       use: [
-              'file-loader?name=./images/[name].[ext]', // указали папку, куда складывать изображения
-              {
-                  loader: 'image-webpack-loader',
-                  options: { }
-              },
+        'file-loader?name=./images/[name].[ext]',
+        {
+          loader: 'image-webpack-loader',
+          options: {
+            mozjpeg: {
+              progressive: true,
+              quality: 90
+            }, // optipng.enabled: false will disable optipng
+            optipng: {
+              enabled: false,
+            },
+            pngquant: {
+              quality: [0.75, 0.90],
+              speed: 4
+            },
+            gifsicle: {
+              interlaced: false,
+            }, // the webp option will enable WEBP
+            webp: {
+              quality: 90
+            }
+          }
+        },
       ],
     },
     {
