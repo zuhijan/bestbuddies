@@ -3,6 +3,7 @@ import './modules/video';
 import './modules/form';
 import './modules/validate';
 import './modules/widgetForm';
+import './modules/popup';
 
 (function () {
 

@@ -1,0 +1,17 @@
+@import './_hidden/popup_hidden.scss';
+@import './__container/popup__container.scss';
+@import './__content-title/popup__content-title.scss';
+@import './__image/popup__image.scss';
+
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+
+    background-color: rgba(147, 151, 203, 0.801);
+
+    display: flex;
+    align-items: center;
+}
