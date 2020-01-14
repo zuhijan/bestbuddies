@@ -41,7 +41,6 @@ import './modules/validate';
         el.addEventListener('click', function() {
         let copytext = document.createElement('input');
         copytext.value = window.location.href;
-
         document.body.appendChild(copytext);
         copytext.select();
         document.execCommand('copy');

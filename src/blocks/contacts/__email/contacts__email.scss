@@ -1,0 +1,21 @@
+.contacts__email {
+    // margin-bottom: 5px;
+    @extend %text-footer;
+    color: $color-text;
+
+    &:first-child {
+        margin-bottom: 20px;
+    }
+
+    @media (max-width: 700px) {
+        text-align: center; 
+    }
+}
+
+.contacts__email:hover {
+    opacity: 0.6;
+}
+
+.contacts__email:active {
+    color: $color-heading;
+}

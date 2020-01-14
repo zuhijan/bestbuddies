@@ -1,14 +1,12 @@
 .donations__help-icons {
-    margin: 48px auto;
+    margin: 0 auto 48px;
 
     @media (min-width: 360px) and (max-width: 768px) {
-        margin: 40px auto;
-        margin-top: calc((100vw - 360px)/(768 - 360) * (40 - 44) + 44px);
+        margin-bottom: 40px;
         margin-bottom: calc((100vw - 360px)/(768 - 360) * (40 - 48) + 48px);
     }
 
     @media (max-width: 360px) {
-        margin-top: 44px;
         margin-bottom: 48px;
     }
 }
