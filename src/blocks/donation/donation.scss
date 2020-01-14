@@ -1,13 +1,15 @@
-@import './__collected/dotanion__collected.scss';
-@import './__paragraph/dotanion__paragraph.scss';
-@import './__image.scss/dotanion__image.scss';
+@import './__collected/donation__collected.scss';
+@import './__paragraph/donation__paragraph.scss';
+@import './__image.scss/donation__image.scss';
 
 .donation {
   max-width: 1440px;
   padding-top: 140px;
   padding-right: 100px;
   padding-left: 100px;
-  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
   @media screen and (max-width: 1240px) {
     padding-top: 128px;

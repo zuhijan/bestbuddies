@@ -1,9 +1,13 @@
-.dotanion__collected {
+.donation__collected {
   background: rgba(255, 255, 255, 0.5);
-  max-width: 706px;
+  width: 704px;
   height: 12px;
   border: 2px solid #FC691B;
   border-radius: 6px;
   margin: 76px auto 16px auto;
   box-sizing: border-box;
+
+  @media screen and (max-width: 780px) {
+    width: 100%;
+  }
 }
