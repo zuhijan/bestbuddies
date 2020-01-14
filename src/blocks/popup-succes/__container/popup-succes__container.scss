@@ -1,0 +1,21 @@
+.popup-succes__container {
+  position: relative;
+  padding: 60px 68px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  width: 704px;
+  margin: 0 auto;
+
+  @media screen and (max-width: 810px) {
+    padding: 32px;
+    width: 100%;
+  }
+
+  @media screen and (max-width: 362px) {
+    padding: 16px;
+    border-radius: 1px;
+  }
+}
