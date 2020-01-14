@@ -1,0 +1,9 @@
+.popup__content-title {
+  @extend %text-big;
+  color: $active;
+  margin: 0 0 40px 0;
+
+  @media (max-width: 790px) {
+    display: none;
+}
+}

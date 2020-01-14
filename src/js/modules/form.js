@@ -1,5 +1,5 @@
 const input__value = document.querySelector('.form__input_value');
-const form__radio = document.querySelectorAll('.form__radio');
+const form__radio = document.querySelectorAll('.form__input_radio-value');
 const form__input_name = document.querySelector('.form__input_name');
 const form__input_email = document.querySelector('.form__input_email');
 
