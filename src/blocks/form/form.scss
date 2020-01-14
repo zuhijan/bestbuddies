@@ -11,8 +11,8 @@
 @import './__container-radio/form__container-radio.scss';
 @import './__container-payment/form__container-payment.scss';
 
-
 .form {
     max-width: 706px;
     margin: 0 auto;
+    background-color: $background-color;
 }

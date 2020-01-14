@@ -363,6 +363,86 @@
       <img class="donation__image" src="<%=require('./images/donation__bg-image.jpg')%>" alt="спортивные игры">
     </section>
 
+    <section class="popup popup_hidden">
+      <div class="popup__container">
+        <svg class="popup__image" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M14 1.41L12.59 0L7 5.59L1.41 0L0 1.41L5.59 7L0 12.59L1.41 14L7 8.41L12.59 14L14 12.59L8.41 7L14 1.41Z" fill="#5A3F98"/>
+        </svg>
+        <h2 class="popup__content-title">Спасибо, что решили помочь ребятам с нарушением развития !</h2>
+        <form class="form form_popup" name="donation" novalidate>
+          <fieldset class="form__fieldset">
+            <div class="form__container-payment">
+              <input class="form__input form__input_payment" id="radio-payment-1" type="radio" name="payment" value="1" checked>
+              <label class="form__label form__label_payment form__label_position-left" for="radio-payment-1">Банковская карта</label>
+            </div>
+
+            <div class="form__container-payment">
+              <input class="form__input form__input_payment" id="radio-payment-2" type="radio" name="payment" value="2">
+              <label class="form__label form__label_payment form__label_position-right" for="radio-payment-2">Яндекс деньги</label>
+            </div>
+          </fieldset>
+          <fieldset class="form__fieldset form__fieldset_value">
+            <div class="form__container-value">
+              <div class="form__container-radio">
+                <input class="form__input  form__input_radio-value" id="radio-1" type="radio" name="radio" value="100" checked>
+                <label class="form__label form__label_value" for="radio-1">100 &#8381;</label>
+              </div>
+
+              <div class="form__container-radio">
+                <input class="form__input  form__input_radio-value" id="radio-2" type="radio" name="radio" value="300">
+                <label class="form__label form__label_value" for="radio-2">300 &#8381;</label>
+              </div>
+
+              <div class="form__container-radio">
+                <input class="form__input  form__input_radio-value" id="radio-3" checked type="radio" name="radio" value="500">
+                <label class="form__label form__label_value" for="radio-3">500 &#8381;</label class="form__label_value">
+              </div>
+
+              <div class="form__container-radio">
+                <input class="form__input form__input_radio-value" id="radio-4" type="radio" name="radio" value="1000">
+                <label class="form__label form__label_value" for="radio-4">1000 &#8381;</label class="form__label_value">
+              </div>
+
+              <div class="form__container-radio">
+                <input class="form__input form__input_value" type="number" name="sum" autocomplete="off"
+                      placeholder="Ваша сумма" onKeyPress="if(this.value.length==17) return false;" required>
+                <img class="form__icon" src="<%=require('./images/ruble.png')%>" alt="">
+              </div>
+            </div>
+          </fieldset>
+
+          <fieldset class="form__fieldset form__fieldset_about">
+            <div class="form__container-about">
+              <label class="form__label form__label_name" for="name">Ваше имя *</label> <br>
+              <input class="form__input form__input_name" id="name" type="text" name="link" autocomplete="off"
+                    placeholder="Иван Иванов" required>
+              <span class="form__error form__error_name"></span>
+            </div>
+
+            <div class="form__container-about">
+              <label class="form__label form__label_email" for="email">Ваш e-mail *</label> <br>
+              <input class="form__input form__input_email" id="email" type="email" name="link" autocomplete="off"
+                    placeholder="ivanivanov@gmail.com" required>
+              <span class="form__error form__error_email"></span>
+            </div>
+
+            <p class="form__paragraph">Оба поля обязательны для заполнения. Эти данные нам нужны только для того, чтобы
+              знать, кого благодарить и куда отправить уведомление о получении пожертвования</p>
+          </fieldset>
+
+          <fieldset class="form__fieldset">
+            <button name="submit-month" type="submit" class="form__button form__button_active">Хочу помогать ежемесячно</button>
+            <button name="submit-one" type="submit" class="form__button form__button_one">Помочь один раз</button>
+          </fieldset>
+          <fieldset class="form__fieldset form__fieldset_policy">
+            <input class="form__input form__input_policy" id="checkbox-policy" type="checkbox" name="policy" checked value="1">
+            <label class="form__label_policy" for="checkbox-policy">Я принимаю правила, изложенные в <a class="form__link"
+                                                                                                        href="#">Соглашении об использовании персональных данных</a></label>
+          </fieldset>
+        </form>
+      </div>
+    </section>
+
     <!-- TEAM START -->
     <section class="team main__block">
       <div class="team__content container">

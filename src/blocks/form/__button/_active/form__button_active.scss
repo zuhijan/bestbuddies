@@ -1,5 +1,9 @@
 .form__button.form__button_active {
-  background: $color-heading-light;
+  background-color: $color-heading-light;
   border: 2px solid $color-heading-light;
   color: $background-color;
+
+  &:hover {
+      background-color: $color-heading-light - 40;
+  }
 }

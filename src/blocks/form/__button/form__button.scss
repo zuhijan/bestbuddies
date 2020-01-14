@@ -5,11 +5,16 @@
   height: 48px;
   cursor: pointer;
 
-  background: $background-color;
+  background-color: $background-color;
   border: 2px solid $color-heading-light;
   border-radius: 8px;
   @extend %text-button;
   color: $color-heading-light;
+  transition: background-color 0.4s ease;
+
+  &:hover {
+    background-color: $color-heading-light + 100;
+  }
 
   @media screen and (max-width: 768px) {
     margin-top: 24px;
