@@ -9,8 +9,8 @@
   <meta name="description" content="Фонд «Лучшие друзья» помогают людям с нарушениями развития познакомиться
      и подружиться со сверстниками без инвалидности, найти работу и жить самостоятельно">
   <title>Лучшие друзья</title>
-  <link rel="stylesheet" href="style.04d0dd0ef692d75d1a22.css">
-
+  <link rel="stylesheet" href="style.56cc5dbc96470da9ac9b.css">
+  <script src="https://widget.cloudpayments.ru/bundles/cloudpayments"></script>
 </head>
 
 <body class="page">
@@ -87,7 +87,7 @@
   </header>
   <main class="main">
     <!-- MAIN-CONTENT -->
-    <section class="video">
+    <section class="video container">
       <div class="video__container video__container_fund">
         <p class="video__paragraph">Фонд «Лучшие друзья» проводит регулярные занятия по&nbsp;футболу и волейболу для
           людей с нарушением развития и&nbsp;без. Постоянные занятия требуют регулярных расходов. <b>Поэтому нужна ваша
@@ -96,7 +96,7 @@
           собрать 765 536 руб.</b></p>
       </div>
       <div class="video__container">
-        <video class="video__player" loop poster="./images/video.jpg" muted="muted">
+        <video autoplay class="video__player" loop poster="./images/video.jpg" muted="muted">
           <source src="http://www.w3schools.com/html/mov_bbb.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
           Тег video не поддерживается вашим браузером.
         </video>
@@ -286,66 +286,71 @@
     <section class="donation">
       <form class="form" name="donation" novalidate>
         <fieldset class="form__fieldset">
-          <div class="form__radio_payment">
-            <input id="radio-payment-1" type="radio" name="payment" value="1" checked>
-            <label class="form__label_payment" for="radio-payment-1">Банковская карта</label>
+          <div class="form__container-payment">
+            <input class="form__input form__input_payment" id="radio-payment-1" type="radio" name="payment" value="1" checked>
+            <label class="form__label form__label_payment form__label_position-left" for="radio-payment-1">Банковская карта</label>
           </div>
 
-          <div class="form__radio_payment">
-            <input id="radio-payment-2" type="radio" name="payment" value="2">
-            <label class="form__label_payment form__label_position" for="radio-payment-2">Яндекс деньги</label>
+          <div class="form__container-payment">
+            <input class="form__input form__input_payment" id="radio-payment-2" type="radio" name="payment" value="2">
+            <label class="form__label form__label_payment form__label_position-right" for="radio-payment-2">Яндекс деньги</label>
           </div>
         </fieldset>
         <fieldset class="form__fieldset form__fieldset_value">
-          <div class="form__container_value">
-            <div class="form__radio_value">
-              <input class="form__radio" id="radio-1" type="radio" name="radio" value="100" checked>
-              <label class="form__label_value" for="radio-1">100 &#8381;</label>
+          <div class="form__container-value">
+            <div class="form__container-radio">
+              <input class="form__input  form__input_radio-value" id="radio-1" type="radio" name="radio" value="100" checked>
+              <label class="form__label form__label_value" for="radio-1">100 &#8381;</label>
             </div>
 
-            <div class="form__radio_value">
-              <input class="form__radio" id="radio-2" type="radio" name="radio" value="300">
-              <label class="form__label_value" for="radio-2">300 &#8381;</label>
+            <div class="form__container-radio">
+              <input class="form__input  form__input_radio-value" id="radio-2" type="radio" name="radio" value="300">
+              <label class="form__label form__label_value" for="radio-2">300 &#8381;</label>
             </div>
 
-            <div class="form__radio_value">
-              <input class="form__radio" id="radio-3" checked type="radio" name="radio" value="500">
-              <label class="form__label_value" for="radio-3">500 &#8381;</label class="form__label_value">
+            <div class="form__container-radio">
+              <input class="form__input  form__input_radio-value" id="radio-3" checked type="radio" name="radio" value="500">
+              <label class="form__label form__label_value" for="radio-3">500 &#8381;</label class="form__label_value">
             </div>
 
-            <div class="form__radio_value">
-              <input class="form__radio" id="radio-4" type="radio" name="radio" value="1000">
-              <label class="form__label_value" for="radio-4">1000 &#8381;</label class="form__label_value">
+            <div class="form__container-radio">
+              <input class="form__input form__input_radio-value" id="radio-4" type="radio" name="radio" value="1000">
+              <label class="form__label form__label_value" for="radio-4">1000 &#8381;</label class="form__label_value">
             </div>
-            <div class="form__radio_value">
+
+            <div class="form__container-radio">
               <input class="form__input form__input_value" type="number" name="sum" autocomplete="off"
-                     placeholder="Ваша сумма" required>
+                     placeholder="Ваша сумма" onKeyPress="if(this.value.length==17) return false;" required>
               <img class="form__icon" src="./images/ruble.png" alt="">
             </div>
           </div>
         </fieldset>
 
         <fieldset class="form__fieldset form__fieldset_about">
-          <div class="form__container">
-            <label class="form__label_about" for="name">Ваше имя *</label class="form__label_about"> <br>
+          <div class="form__container-about">
+            <label class="form__label form__label_name" for="name">Ваше имя *</label> <br>
             <input class="form__input form__input_name" id="name" type="text" name="link" autocomplete="off"
                    placeholder="Иван Иванов" required>
+            <span class="form__error form__error_name"></span>
           </div>
-          <div class="form__container">
-            <label class="form__label_about" for="email">Ваш e-mail *</label> <br>
+
+          <div class="form__container-about">
+            <label class="form__label form__label_email" for="email">Ваш e-mail *</label> <br>
             <input class="form__input form__input_email" id="email" type="email" name="link" autocomplete="off"
                    placeholder="ivanivanov@gmail.com" required>
+            <span class="form__error form__error_email"></span>
           </div>
+
           <p class="form__paragraph">Оба поля обязательны для заполнения. Эти данные нам нужны только для того, чтобы
             знать, кого благодарить и куда отправить уведомление о получении пожертвования</p>
         </fieldset>
 
         <fieldset class="form__fieldset">
-          <button name="submit" type="submit" class="form__button form__button_active">Хочу помогать ежемесячно</button>
-          <button name="submit" type="submit" class="form__button">Помочь один раз</button>
+          <button name="submit-month" type="submit" class="form__button form__button_active">Хочу помогать ежемесячно</button>
+          <button name="submit-one" type="submit" class="form__button form__button_one">Помочь один раз</button>
         </fieldset>
         <fieldset class="form__fieldset form__fieldset_policy">
-          <input id="checkbox-policy" type="checkbox" name="policy" checked value="1">
+          <input class="form__input form__input_policy" id="checkbox-policy" type="checkbox" name="policy" checked value="1">
           <label class="form__label_policy" for="checkbox-policy">Я принимаю правила, изложенные в <a class="form__link"
                                                                                                       href="#">Соглашении об использовании персональных данных</a></label>
         </fieldset>
@@ -355,6 +360,7 @@
       <p class="dotanion__paragraph">
         Собрали 3 374 из 764 536 рублей
       </p>
+      <img class="dotanion__image" src="./images/donation__bg-image.jpg" alt="">
     </section>
 
     <!-- TEAM START -->
@@ -488,10 +494,10 @@
           src="./images/logo.svg" alt="Bestbuddies Logo"></a>
       <div class="footer__info">
         <div class="contacts footer__contacts">
-          <p class="contacts__text" tabindex="14">115114, Москва, ул. Летниковская, дом 11/10, строение 5, подъезд №1 (в
+          <p class="contacts__address" tabindex="14">115114, Москва, ул. Летниковская, дом 11/10, строение 5, подъезд №1 (в
             бизнес-центре «Capital House»)</p>
-          <p class="contacts__text" tabindex="15"><b class="text-accent">+7(495)725-39-82</b></p>
-          <p class="contacts__text" tabindex="16"><b class="text-accent">office@bestbuddies.ru</b></p>
+          <a class="contacts__phone" href="tel:+74957253982" tabindex="15"><b class="text-accent">+7(495)725-39-82</b></a>
+          <a class="contacts__email" href="mailto:office@bestbuddies.ru" tabindex="16"><b class="text-accent">office@bestbuddies.ru</b></a>
         </div>
 
         <div class="company-name footer__company-name">
