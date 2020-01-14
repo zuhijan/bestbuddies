@@ -1,12 +1,12 @@
-.form__radio_payment {
+.form__container-payment {
   display: inline-block;
   margin-right: -4px;
 
-  & input[type=radio] {
+  & .form__input_payment {
     display: none;
   }
 
-  & input[type=radio]:checked + .form__label_payment {
+  & .form__input_payment:checked + .form__label_payment {
     color: $color-heading;
     border-bottom: 8px solid $color-heading;
     padding-bottom: 0;

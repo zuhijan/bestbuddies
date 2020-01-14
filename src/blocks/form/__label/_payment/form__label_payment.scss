@@ -2,8 +2,8 @@
   display: inline-block;
 	cursor: pointer;
   border-bottom: 4px solid $placeholder;
-  color: $color-heading-light;
   user-select: none;
-  @extend %text-bold;
+  @extend %text-mini-bold-mobile;
+  color: $color-heading;
   padding-bottom: 2px;
 }
