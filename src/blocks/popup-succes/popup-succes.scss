@@ -2,23 +2,26 @@
 @import "./__icons/popup-succes__icons.scss";
 @import "./__image/popup-succes__image.scss";
 @import "./__title/popup-succes__title.scss";
+@import "./__image-close/popup-succes__image-close.scss";
+@import "./__container/popup-succes__container.scss";
+
+
 
 .popup-succes {
   position: fixed;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  top: 15%;
-  left: 25%;
-  width: 704px;
-  height: 512px;
-  background-color: #fff;
-  padding: 60px 68px;
-  // display: none;
+  top: 0;
+  left: 0;
+
+  width: 100vw;
+  height: 100vh;
+
+  background-color: rgba(147, 151, 203, 0.801);
+  z-index: 4;
+
+}
+.popup-succes_disable {
+  display: none;
 }
 
-.overlay {
-  width: 100%;
-  background-color: $color-heading-light;
-  ;
-}
