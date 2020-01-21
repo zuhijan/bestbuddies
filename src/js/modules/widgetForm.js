@@ -1,3 +1,5 @@
+const popupSucces = document.querySelector('.popup-succes');
+
 function pay(amount, email) {
   var widget = new cp.CloudPayments();
   widget.charge({ // options
@@ -14,6 +16,7 @@ function pay(amount, email) {
       },
       function (options) { // success
           //действие при успешной оплате
+          popupSucces.classList.remove('popup-succes_disable')
       },
       function (reason, options) { // fail
           //действие при неуспешной оплате

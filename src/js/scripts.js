@@ -4,6 +4,8 @@ import './modules/form';
 import './modules/validate';
 import './modules/widgetForm';
 import './modules/popup';
+import './modules/popup-succes';
+
 
 (function () {
 
