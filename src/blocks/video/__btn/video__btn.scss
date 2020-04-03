@@ -1,0 +1,33 @@
+.video__btn {
+  position: absolute;
+  bottom: 44px;
+  left: 44px;
+  width: 184px;
+  height: 56px;
+  border: 1px solid $background-color;
+  border-radius: 8px;
+  background-color: rgba(0, 125, 215, 0);
+  @extend %text-mini;
+  color: $background-color;
+  cursor: pointer;
+  transition: background-color 0.4s ease;
+  padding-left: 31px;
+
+  &:hover {
+    background-color: $active;
+  }
+
+  @media screen and (max-width: 1224px) {
+    align-items: center;
+  }
+
+  @media screen and (max-width: 768px) {
+    bottom: 32px;
+    left: 32px;
+ }
+
+  @media screen and (max-width: 704px) {
+    bottom: 32px;
+    left: 24px;
+  }
+}

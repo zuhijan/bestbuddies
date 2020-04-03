@@ -1,0 +1,47 @@
+.form__container-radio {
+  position: relative;
+  display: inline-block;
+  margin-left: 16px;
+
+  & .form__input_radio-value {
+    display: none;
+  }
+
+  & .form__input_radio-value:checked + .form__label_value {
+    background-color: $active;
+    color: $background-color;
+  }
+}
+
+.form__container-radio:first-of-type {
+  margin-left: -2px;
+}
+
+.form__container-radio:last-of-type {
+  @media screen and (max-width: 750px) {
+    margin-top: 20px;
+    margin-left: 0;
+  }
+}
+
+
+.form__container-radio:nth-child(4) {
+  @media screen and (max-width: 750px) {
+    margin-right: 40px;
+  }
+
+  @media screen and (max-width: 540px) {
+    margin-left: 0;
+    margin-top: 20px;
+    margin-right: 16px;
+  }
+}
+
+.form__container-radio:nth-child(3) {
+  @media screen and (max-width: 540px) {
+    margin-right: 45px;
+  }
+  @media screen and (max-width: 430px) {
+    margin-right: 0;
+  }
+}

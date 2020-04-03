@@ -1,0 +1,15 @@
+.budget__line {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  @extend %text-desktop;
+  color: $color-text;
+
+  @media screen and (max-width: 550px) {
+      position: relative;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 16px;
+      letter-spacing: 0.8px;
+  }
+}

@@ -1,0 +1,9 @@
+.form__label.form__label_payment {
+  display: inline-block;
+	cursor: pointer;
+  border-bottom: 4px solid $placeholder;
+  user-select: none;
+  @extend %text-bold;
+  color: $color-heading;
+  padding-bottom: 2px;
+}

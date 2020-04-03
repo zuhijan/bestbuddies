@@ -1,0 +1,19 @@
+.donations__email {
+    margin: 0 auto 48px;
+    @extend %text-big;
+    color: $color-heading;
+    text-align: center;
+
+    @media (min-width: 360px) and (max-width: 768px) {
+        margin-bottom: 40px;
+        margin-bottom: calc((100vw - 360px)/(768 - 360) * (40 - 44) + 44px);
+    }
+
+    @media (max-width: 360px) {
+        width: 100%;
+        margin-bottom: 44px;
+        text-align: start;
+        font-size: 18px;
+        line-height: 24px;
+    }
+}

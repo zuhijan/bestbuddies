@@ -1,0 +1,13 @@
+.team__text {
+    margin: 0;
+    margin-bottom: 25px;
+    @extend %text-desktop;
+    color: $color-text;
+    &:last-child {
+        margin-bottom: 0;
+    }
+
+    @media (max-width: 360px) {
+        font-size: 16px;
+    }
+}

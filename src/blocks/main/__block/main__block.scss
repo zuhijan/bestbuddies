@@ -1,0 +1,11 @@
+.main__block {
+    margin: 0 auto 80px;
+
+    @media (min-width: 360px) and (max-width: 767px) {
+        margin-bottom: calc((100vw - 360px)/(767 - 360) * (80 - 60) + 60px);
+    }
+
+    @media (max-width: 359px) {
+        margin-bottom: 60px;
+    }
+}

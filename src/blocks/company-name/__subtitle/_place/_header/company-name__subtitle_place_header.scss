@@ -1,0 +1,7 @@
+.company-name__subtitle_place_header {
+    color: $color-heading;
+
+    @media (max-width: 1250px) {
+        display: none;
+    }
+}

@@ -1,0 +1,7 @@
+.social-icons__path {
+    transition: fill 0.4s ease;
+}
+
+.social-icons__link:hover .social-icons__path {
+    fill: $color-heading;
+}

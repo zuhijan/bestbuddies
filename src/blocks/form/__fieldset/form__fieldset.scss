@@ -1,0 +1,9 @@
+@import './_value/form__fieldset_value.scss';
+@import './_about/form__fieldset_about.scss';
+@import './_policy/form__fieldset_policy.scss';
+
+.form__fieldset {
+    border: none;
+    outline: none;
+    padding: 0;
+}

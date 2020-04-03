@@ -1,0 +1,14 @@
+@import './_sum/budget__paragraph_sum.scss';
+@import './_training/budget__paragraph_training.scss';
+
+.budget__paragraph {
+  @extend %text-desktop;
+  color: $color-text;
+
+  @media screen and (max-width: 550px) {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.8px;
+  }
+}

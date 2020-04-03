@@ -1,0 +1,9 @@
+@import './__address/contacts__address.scss';
+@import './__phone/contacts__phone.scss';
+@import './__email/contacts__email.scss';
+
+.contacts {
+    max-width: 264px;
+    display: flex;
+    flex-direction: column;
+}

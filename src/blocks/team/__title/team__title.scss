@@ -1,0 +1,16 @@
+.team__title {
+    margin: 0;
+    margin-bottom: 32px;
+    @extend %text-big;
+    color: $color-heading;
+
+    @media (max-width: 768px) {
+        margin-bottom: 16px;
+    }
+
+    @media (max-width: 360px) {
+        margin-bottom: 12px;
+        font-size: 18px;
+        line-height: 24px;
+    }
+}

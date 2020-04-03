@@ -1,0 +1,20 @@
+.budget__paragraph.budget__paragraph_training {
+  text-align: center;
+  color: $color-heading;
+  @extend %text-big;
+  margin: 20px 48px 0 48px;
+  padding: 14px 0 0 3px;
+  border-top: 1.2px dashed $color-heading-light;
+
+  @media screen and (max-width: 1224px) {
+  }
+
+  @media screen and (max-width: 550px) {
+    margin: 23px 15px 0 15px;
+    padding: 15px 0 0 4px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+  }
+}

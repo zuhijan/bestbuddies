@@ -1,0 +1,19 @@
+.form__label.form__label_value {
+  display: inline-block;
+	cursor: pointer;
+  padding: 0;
+  padding-top: 10px;
+  box-sizing: border-box;
+  border: 2px solid $active;
+  color: $active;
+  user-select: none;
+  @extend %text-bold;
+  width: 104px;
+  height: 44px;
+  text-align: center;
+
+  @media screen and (max-width: 730px) {
+    width: 96px;
+  }
+}
+

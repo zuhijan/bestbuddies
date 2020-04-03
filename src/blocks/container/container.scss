@@ -1,0 +1,27 @@
+.container {
+    box-sizing: border-box;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 60px 100px 40px;
+
+    @media (min-width: 768px) and (max-width: 1239px) {
+        padding-left: calc((100vw - 768px)/(1239 - 768) * (100 - 32) + 32px);
+        padding-right: calc((100vw - 768px)/(1239 - 768) * (100 - 32) + 32px);
+        padding-top: calc((100vw - 768px)/(1239 - 768) * (60 - 48) + 48px);
+        padding-bottom: calc((100vw - 768px)/(1239 - 768) * (40 - 48) + 48px);
+    }
+
+    @media (min-width: 360px) and (max-width: 767px) {
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: calc((100vw - 360px)/(767 - 360) * (48 - 0) + 0px);
+        padding-bottom: calc((100vw - 360px)/(767 - 360) * (48 - 40) + 40px);
+    }
+
+    @media (max-width: 359px) {
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-top: 0;
+        padding-bottom: 40px;
+    }
+}

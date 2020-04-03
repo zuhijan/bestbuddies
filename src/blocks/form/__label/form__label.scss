@@ -1,0 +1,11 @@
+@import './_payment/form__label_payment.scss';
+@import './_value/form__label_value.scss';
+@import './_about/form__label_about.scss';
+@import './_policy/form__label_policy.scss';
+@import './_position-left/form__label_position-left.scss';
+@import './_position-right/form__label_position-right.scss';
+
+.form__label {
+  @extend %text-mini-bold-mobile;
+  color: $color-heading;
+}

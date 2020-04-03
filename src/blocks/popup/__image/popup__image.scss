@@ -1,0 +1,16 @@
+.popup__image {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    cursor: pointer;
+
+    @media screen and (max-width: 830px) {
+      top: 40px;
+      right: 40px;
+    }
+
+    @media screen and (max-width: 510px) {
+      top: 20px;
+      right: 40px;
+    }
+}

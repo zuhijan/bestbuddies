@@ -1,0 +1,16 @@
+.budget__content-subtitle {
+    color: $color-heading;
+    @extend %text-big;
+    letter-spacing: 1.2px;
+    text-align: center;
+    margin: 0 auto 29px auto;
+
+    @media screen and (max-width: 550px) {
+      max-width: 200px;
+      text-align: center;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 24px;
+      letter-spacing: 0.5px;
+    }
+}

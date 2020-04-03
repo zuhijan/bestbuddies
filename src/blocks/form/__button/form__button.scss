@@ -1,0 +1,37 @@
+@import './_active/form__button_active.scss';
+
+.form__button {
+  width: 344px;
+  height: 48px;
+  cursor: pointer;
+
+  background-color: $background-color;
+  border: 2px solid $color-heading-light;
+  border-radius: 8px;
+  @extend %text-button;
+  color: $color-heading-light;
+  transition: background-color 0.4s ease;
+
+  &:hover {
+    background-color: $color-heading-light + 100;
+  }
+
+  @media screen and (max-width: 768px) {
+    margin-top: 24px;
+  }
+
+  @media screen and (max-width: 433px) {
+    width: 328px;
+  }
+}
+
+.form__button:first-of-type {
+  margin-right: 9px;
+  @media screen and (max-width: 768px) {
+    margin-right: 7px;
+  }
+
+  @media screen and (max-width: 433px) {
+    width: 328px;
+  }
+}

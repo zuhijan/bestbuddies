@@ -1,0 +1,21 @@
+.video__player {
+    max-width: 860px;
+    height: 484px;
+    outline: none;
+    margin: 0;
+    padding: 0;
+    @media screen and (max-width: 1400px) {
+      max-width: 704px;
+      height: 396px;
+   }
+
+   @media screen and (max-width: 392px) {
+    width: 360px;
+    height: 280px;
+}
+
+    @media screen and (max-width: 370px) {
+      width: auto;
+      height: 280px;
+  }
+}

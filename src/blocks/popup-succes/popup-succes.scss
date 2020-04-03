@@ -1,0 +1,27 @@
+@import "./__description/popup-succes__description.scss";
+@import "./__icons/popup-succes__icons.scss";
+@import "./__image/popup-succes__image.scss";
+@import "./__title/popup-succes__title.scss";
+@import "./__image-close/popup-succes__image-close.scss";
+@import "./__container/popup-succes__container.scss";
+
+
+
+.popup-succes {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  top: 0;
+  left: 0;
+
+  width: 100vw;
+  height: 100vh;
+
+  background-color: rgba(147, 151, 203, 0.801);
+  z-index: 4;
+
+}
+.popup-succes_disable {
+  display: none;
+}
+

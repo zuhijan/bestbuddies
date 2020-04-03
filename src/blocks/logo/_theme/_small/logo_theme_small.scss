@@ -1,0 +1,8 @@
+.logo_theme_small {
+    width: 80px;
+    height: 80px;
+    @media (max-width: 360px) {
+        width: 64px;
+        height: 64px;
+    }
+}

@@ -1,0 +1,14 @@
+.form__container-payment {
+  display: inline-block;
+  margin-right: -4px;
+
+  & .form__input_payment {
+    display: none;
+  }
+
+  & .form__input_payment:checked + .form__label_payment {
+    color: $color-heading;
+    border-bottom: 8px solid $color-heading;
+    padding-bottom: 0;
+  }
+}

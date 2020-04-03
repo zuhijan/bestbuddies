@@ -1,0 +1,16 @@
+.video__image {
+  position: absolute;
+  bottom: 62px;
+  left: 64px;
+  z-index: 2;
+
+  @media screen and (max-width: 768px) {
+    bottom: 51px;
+    left: 52px;
+ }
+
+ @media screen and (max-width: 704px) {
+  bottom: 51px;
+  left: 44px;
+}
+}

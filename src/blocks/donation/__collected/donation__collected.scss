@@ -1,0 +1,13 @@
+.donation__collected {
+  background: rgba(255, 255, 255, 0.5);
+  width: 704px;
+  height: 12px;
+  border: 2px solid #FC691B;
+  border-radius: 6px;
+  margin: 76px auto 16px auto;
+  box-sizing: border-box;
+  background: linear-gradient(90deg, rgba(252,105,27,1) 15%, rgba(252,105,27,0) 15%);
+  @media screen and (max-width: 780px) {
+    width: 100%;
+  }
+}
