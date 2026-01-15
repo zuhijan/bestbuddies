@@ -37,7 +37,7 @@
     "postcss-loader": "~3.0.0",
     "sass-loader": "^8.0.0",
     "style-loader": "~1.0.0",
-    "webpack": "~4.40.3",
+    "webpack": "~5.104.1",
     "webpack-cli": "~3.3.12",
     "webpack-dev-server": "~3.8.2",
     "webpack-md5-hash": "0.0.6"
